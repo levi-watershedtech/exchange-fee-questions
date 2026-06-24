@@ -1,0 +1,13 @@
+# Bulky raw downloads — fetched fresh each run and only needed transiently to
+# build Current/. We keep the small JSON records (manifest/effective_dates/
+# changes) so daily change-detection can compare against previous runs.
+Fetched/**/*.html
+Fetched/**/*.pdf
+
+# Editor / OS / Python cruft
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

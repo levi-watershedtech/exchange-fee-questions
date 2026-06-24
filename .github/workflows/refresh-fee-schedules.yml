@@ -1,0 +1,73 @@
+name: Refresh fee schedules
+
+# Daily pipeline:
+#   1. Fetch every exchange's current fee schedule.
+#   2. Detect whether any effective date moved since the last committed run.
+#   3. If so (or on the first/baseline run), rebuild the Current/ folder
+#      (HTML -> clean Markdown, PDFs copied) and commit it.
+# The team's Claude Project syncs from Current/ via the GitHub integration.
+#
+# The bulky raw HTML/PDF downloads are git-ignored — only the lean Current/
+# outputs and the small Fetched/*.json change-detection records are committed,
+# so the repo (and the Project) stay small.
+
+on:
+  workflow_dispatch:          # manual "Run workflow" button in the Actions tab
+  schedule:
+    # 11:00 UTC daily (~6-7am US Eastern). Weekdays only would be: '0 11 * * 1-5'
+    - cron: '0 11 * * *'
+
+permissions:
+  contents: write             # so the job can push refreshed files back
+
+concurrency:
+  group: refresh-fee-schedules
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run fetch + change detection
+        id: detect
+        run: |
+          set +e
+          python Scripts/check_fee_schedule_changes.py
+          code=$?
+          set -e
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          case "$code" in
+            0) echo "No changes since last run."             >> "$GITHUB_STEP_SUMMARY" ;;
+            2) echo "First run - baseline stored."            >> "$GITHUB_STEP_SUMMARY" ;;
+            3) echo "Changes detected - rebuilding Current/." >> "$GITHUB_STEP_SUMMARY" ;;
+            *) echo "Script errored (exit $code)."            >> "$GITHUB_STEP_SUMMARY"; exit "$code" ;;
+          esac
+
+      # Rebuild Current/ only when something changed (or on the baseline run).
+      - name: Build Current/ (HTML -> Markdown, PDFs copied)
+        if: steps.detect.outputs.exit_code == '3' || steps.detect.outputs.exit_code == '2'
+        run: python Scripts/build_current_markdown.py
+
+      - name: Commit refreshed schedules
+        if: steps.detect.outputs.exit_code == '3' || steps.detect.outputs.exit_code == '2'
+        run: |
+          git config user.name  "fee-schedule-bot"
+          git config user.email "fee-schedule-bot@users.noreply.github.com"
+          git add Current/ Fetched/
+          if git diff --staged --quiet; then
+            echo "Nothing staged to commit."
+          else
+            git commit -m "Fee schedules: refresh $(date -u +%Y-%m-%d)"
+            git push
+          fi

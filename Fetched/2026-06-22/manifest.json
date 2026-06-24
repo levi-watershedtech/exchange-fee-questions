@@ -1,0 +1,146 @@
+[
+  {
+    "exchange": "BZX",
+    "url": "https://www.cboe.com/us/options/membership/fee_schedule/bzx/",
+    "file": "BZX_Fee_Schedule.html",
+    "type": "html",
+    "bytes": 659233,
+    "status": "ok"
+  },
+  {
+    "exchange": "C2",
+    "url": "https://www.cboe.com/us/options/membership/fee_schedule/ctwo/",
+    "file": "C2_Fee_Schedule.html",
+    "type": "html",
+    "bytes": 656537,
+    "status": "ok"
+  },
+  {
+    "exchange": "EDGX",
+    "url": "https://www.cboe.com/us/options/membership/fee_schedule/edgx/",
+    "file": "EDGX_Fee_Schedule.html",
+    "type": "html",
+    "bytes": 674589,
+    "status": "ok"
+  },
+  {
+    "exchange": "CBOE",
+    "url": "https://cdn.cboe.com/resources/membership/Cboe_FeeSchedule.pdf",
+    "file": "CBOE_Fee_Schedule.pdf",
+    "type": "pdf",
+    "bytes": 1115365,
+    "status": "ok"
+  },
+  {
+    "exchange": "MEMX",
+    "url": "https://info.memxtrading.com/us-options-trading-resources/us-options-fee-schedule/",
+    "file": "MEMX_Fee_Schedule.html",
+    "type": "html",
+    "bytes": 105583,
+    "status": "ok"
+  },
+  {
+    "exchange": "NOM",
+    "url": "https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/Nasdaq%20Options%207",
+    "file": "NOM_Fee_Schedule.html",
+    "type": "html",
+    "bytes": 346080,
+    "status": "ok"
+  },
+  {
+    "exchange": "NTX",
+    "url": "https://listingcenter.nasdaq.com/rulebook/nasdaqtx/rules/NTX%20Options%207",
+    "file": "NTX_Fee_Schedule.html",
+    "type": "html",
+    "bytes": 291389,
+    "status": "ok"
+  },
+  {
+    "exchange": "Gemini",
+    "url": "https://listingcenter.nasdaq.com/rulebook/gemx/rules/GEMX%20Options%207",
+    "file": "Gemini_Fee_Schedule.html",
+    "type": "html",
+    "bytes": 316711,
+    "status": "ok"
+  },
+  {
+    "exchange": "ISE",
+    "url": "https://listingcenter.nasdaq.com/rulebook/ise/rules/ISE%20Options%207",
+    "file": "ISE_Fee_Schedule.html",
+    "type": "html",
+    "bytes": 545852,
+    "status": "ok"
+  },
+  {
+    "exchange": "PHLX",
+    "url": "https://listingcenter.nasdaq.com/rulebook/phlx/rules/Phlx%20Options%207",
+    "file": "PHLX_Fee_Schedule.html",
+    "type": "html",
+    "bytes": 736787,
+    "status": "ok"
+  },
+  {
+    "exchange": "Mercury",
+    "url": "https://listingcenter.nasdaq.com/rulebook/mrx/rules/MRX%20Options%207",
+    "file": "Mercury_Fee_Schedule.html",
+    "type": "html",
+    "bytes": 382383,
+    "status": "ok"
+  },
+  {
+    "exchange": "ARCA",
+    "url": "https://www.nyse.com/publicdocs/nyse/markets/arca-options/NYSE_Arca_Options_Fee_Schedule.pdf",
+    "file": "ARCA_Fee_Schedule.pdf",
+    "type": "pdf",
+    "bytes": 321106,
+    "status": "ok"
+  },
+  {
+    "exchange": "AMEX",
+    "url": "https://www.nyse.com/publicdocs/nyse/markets/american-options/NYSE_American_Options_Fee_Schedule.pdf",
+    "file": "AMEX_Fee_Schedule.pdf",
+    "type": "pdf",
+    "bytes": 136907,
+    "status": "ok"
+  },
+  {
+    "exchange": "Pearl",
+    "url": "https://www.miaxglobal.com/sites/default/files/fee_schedule-files/MIAX_Pearl_Options_Fee_Schedule_06012026_b.pdf",
+    "file": "Pearl_Fee_Schedule.pdf",
+    "type": "pdf",
+    "bytes": 465843,
+    "status": "ok"
+  },
+  {
+    "exchange": "Sapphire",
+    "url": "https://www.miaxglobal.com/sites/default/files/fee_schedule-files/MIAX_Sapphire_Fee_Schedule_05132026.pdf",
+    "file": "Sapphire_Fee_Schedule.pdf",
+    "type": "pdf",
+    "bytes": 665390,
+    "status": "ok"
+  },
+  {
+    "exchange": "Emerald",
+    "url": "https://www.miaxglobal.com/sites/default/files/fee_schedule-files/MIAX__Emerald__Fee__Schedule__06012026.pdf",
+    "file": "Emerald_Fee_Schedule.pdf",
+    "type": "pdf",
+    "bytes": 537523,
+    "status": "ok"
+  },
+  {
+    "exchange": "MIAX",
+    "url": "https://www.miaxglobal.com/sites/default/files/fee_schedule-files/MIAX_Options_Fee_Schedule_06012026.pdf",
+    "file": "MIAX_Fee_Schedule.pdf",
+    "type": "pdf",
+    "bytes": 641580,
+    "status": "ok"
+  },
+  {
+    "exchange": "BOX",
+    "url": "https://boxexchange.com/assets/BOX-Fee-Schedule-as-of-April-24-2026-1.pdf",
+    "file": "BOX_Fee_Schedule.pdf",
+    "type": "pdf",
+    "bytes": 401783,
+    "status": "ok"
+  }
+]

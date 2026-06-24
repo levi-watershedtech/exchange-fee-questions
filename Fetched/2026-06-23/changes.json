@@ -1,0 +1,21 @@
+{
+  "new_run": "2026-06-23",
+  "previous_run": "2026-06-22",
+  "changed": [
+    {
+      "exchange": "ARCA",
+      "reason": "effective date changed",
+      "old_date": "2026-05-06",
+      "new_date": "2026-06-22",
+      "file": "ARCA_Fee_Schedule.pdf"
+    },
+    {
+      "exchange": "AMEX",
+      "reason": "effective date changed",
+      "old_date": "2026-06-01",
+      "new_date": "2026-06-22",
+      "file": "AMEX_Fee_Schedule.pdf"
+    }
+  ],
+  "needs_review": []
+}
