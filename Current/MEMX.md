@@ -2,7 +2,7 @@
 exchange: MEMX
 effective_date: 2026-06-01
 source_url: https://info.memxtrading.com/us-options-trading-resources/us-options-fee-schedule/
-fetched: 2026-06-23
+fetched: 2026-06-26
 ---
 
 # MEMX Options — Fee Schedule

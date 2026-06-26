@@ -2,7 +2,7 @@
 exchange: EDGX
 effective_date: 2026-05-28
 source_url: https://www.cboe.com/us/options/membership/fee_schedule/edgx/
-fetched: 2026-06-23
+fetched: 2026-06-26
 ---
 
 # Cboe EDGX Options — Fee Schedule
