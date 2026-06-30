@@ -2,7 +2,7 @@
 exchange: NTX
 effective_date: 2026-04-06
 source_url: https://listingcenter.nasdaq.com/rulebook/nasdaqtx/rules/NTX%20Options%207
-fetched: 2026-06-26
+fetched: 2026-06-30
 ---
 
 # Nasdaq BX (NTX) Options — Fee Schedule

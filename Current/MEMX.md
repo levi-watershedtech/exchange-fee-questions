@@ -1,15 +1,15 @@
 ---
 exchange: MEMX
-effective_date: 2026-06-01
+effective_date: 2026-07-01
 source_url: https://info.memxtrading.com/us-options-trading-resources/us-options-fee-schedule/
-fetched: 2026-06-26
+fetched: 2026-06-30
 ---
 
 # MEMX Options — Fee Schedule
 
-*Effective 2026-06-01. Source: https://info.memxtrading.com/us-options-trading-resources/us-options-fee-schedule/*
+*Effective 2026-07-01. Source: https://info.memxtrading.com/us-options-trading-resources/us-options-fee-schedule/*
 
-#### (EFFECTIVE JUNE 1, 2026)
+#### (EFFECTIVE JULY 1, 2026)
 
 ### **Transaction Fees**
 
@@ -56,29 +56,9 @@ The Routing Fee applies to orders routed to and executed on another exchange.
 
 ### **Options Regulatory Fee (ORF)**
 
-**Effective through June 30, 2026**
+Effective as of July 1, 2026, the ORF is $0.0200 per contract side.
 
-The per-contract Options Regulatory Fee (“ORF”) set forth below is assessed by MEMX Options to each Member for options transactions cleared by The Options Clearing Corporation (OCC) in the “customer” range where:
-
-(1)       the execution occurs on MEMX Options, or
-
-(2)       the execution occurs on another options exchange and is cleared or ultimately cleared by a MEMX Options Member.
-
-|  |  |
-| --- | --- |
-| **Options Regulatory Fee (ORF)** | **Fee Per Executed Contract Side** |
-| All Classes | $0.0015 |
-
-Additional Notes:
-
-* The Exchange uses reports from OCC when assessing and collecting the ORF.
-* The ORF is collected by OCC on behalf of MEMX Options from either: (1) a Member that was the ultimate clearing firm for the transaction, or (2) a non-Member that was the ultimate clearing firm where a Member was the executing clearing firm for the transaction.
-* The Exchange may only increase or decrease the ORF semi-annually.
-* The Exchange will notify participants of any change in the amount of the fee at least 30 calendar days prior to the effective date of the change.
-
-**Effective as of July 1, 2026**
-
-The ORF is assessed by MEMX Options to each Member on each side of a transaction for options transactions cleared by the Member that are cleared by the OCC in the “customer” range for executions that occur on MEMX Options. MEMX Options uses reports from OCC when assessing and collecting the ORF. The fee is collected by OCC on behalf of MEMX Options from the Member that was the clearing firm for the transaction or a non-Member that was the clearing firm, where a Member was the executing clearing firm for the transaction. The ORF is not assessed on outbound linkage trades.
+The per-contract Options Regulatory Fee (“ORF”) is assessed by MEMX Options to each Member on each side of a transaction for options transactions cleared by the Member that are cleared by the Options Clearing Corporation (“OCC”) in the “customer” range for executions that occur on MEMX Options. MEMX Options uses reports from OCC when assessing and collecting the ORF. The fee is collected by OCC on behalf of MEMX Options from the Member that was the clearing firm for the transaction or a non-Member that was the clearing firm, where a Member was the executing clearing firm for the transaction. The Exchange will notify Members of any change in the amount of the fee at least 30 calendar days prior to the effective date of the change.
 
 ### **Market Data Fees**
 
