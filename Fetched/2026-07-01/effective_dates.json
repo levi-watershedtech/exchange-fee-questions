@@ -1,0 +1,128 @@
+{
+  "BZX": {
+    "effective_date": "2026-05-28",
+    "raw": "May 28, 2026",
+    "source": "Cboe HTML 'Effective' line",
+    "file": "BZX_Fee_Schedule.html",
+    "url": "https://www.cboe.com/us/options/membership/fee_schedule/bzx/"
+  },
+  "C2": {
+    "effective_date": "2026-05-28",
+    "raw": "May 28, 2026",
+    "source": "Cboe HTML 'Effective' line",
+    "file": "C2_Fee_Schedule.html",
+    "url": "https://www.cboe.com/us/options/membership/fee_schedule/ctwo/"
+  },
+  "EDGX": {
+    "effective_date": "2026-05-28",
+    "raw": "May 28, 2026",
+    "source": "Cboe HTML 'Effective' line",
+    "file": "EDGX_Fee_Schedule.html",
+    "url": "https://www.cboe.com/us/options/membership/fee_schedule/edgx/"
+  },
+  "CBOE": {
+    "effective_date": "2026-06-25",
+    "raw": "June 25, 2026",
+    "source": "Cboe PDF 'Fees Schedule -' header",
+    "file": "CBOE_Fee_Schedule.pdf",
+    "url": "https://cdn.cboe.com/resources/membership/Cboe_FeeSchedule.pdf"
+  },
+  "MEMX": {
+    "effective_date": "2026-07-01",
+    "raw": "JULY 1, 2026",
+    "source": "MEMX HTML '(EFFECTIVE ...)' banner",
+    "file": "MEMX_Fee_Schedule.html",
+    "url": "https://info.memxtrading.com/us-options-trading-resources/us-options-fee-schedule/"
+  },
+  "NOM": {
+    "effective_date": "2026-06-08",
+    "raw": "06/08/2026",
+    "source": "Nasdaq rulebook Versions menu",
+    "file": "NOM_Fee_Schedule.html",
+    "url": "https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/Nasdaq%20Options%207"
+  },
+  "NTX": {
+    "effective_date": "2026-04-14",
+    "raw": "04/14/2026",
+    "source": "Nasdaq rulebook Versions menu",
+    "file": "NTX_Fee_Schedule.html",
+    "url": "https://listingcenter.nasdaq.com/rulebook/nasdaqtx/rules/NTX%20Options%207"
+  },
+  "Gemini": {
+    "effective_date": "2026-05-29",
+    "raw": "05/29/2026",
+    "source": "Nasdaq rulebook Versions menu",
+    "file": "Gemini_Fee_Schedule.html",
+    "url": "https://listingcenter.nasdaq.com/rulebook/gemx/rules/GEMX%20Options%207"
+  },
+  "ISE": {
+    "effective_date": "2026-06-11",
+    "raw": "06/11/2026",
+    "source": "Nasdaq rulebook Versions menu",
+    "file": "ISE_Fee_Schedule.html",
+    "url": "https://listingcenter.nasdaq.com/rulebook/ise/rules/ISE%20Options%207"
+  },
+  "PHLX": {
+    "effective_date": "2026-05-29",
+    "raw": "05/29/2026",
+    "source": "Nasdaq rulebook Versions menu",
+    "file": "PHLX_Fee_Schedule.html",
+    "url": "https://listingcenter.nasdaq.com/rulebook/phlx/rules/Phlx%20Options%207"
+  },
+  "Mercury": {
+    "effective_date": "2026-06-04",
+    "raw": "06/04/2026",
+    "source": "Nasdaq rulebook Versions menu",
+    "file": "Mercury_Fee_Schedule.html",
+    "url": "https://listingcenter.nasdaq.com/rulebook/mrx/rules/MRX%20Options%207"
+  },
+  "ARCA": {
+    "effective_date": "2026-06-22",
+    "raw": "June 22, 2026",
+    "source": "NYSE Arca PDF 'Effective Date:'",
+    "file": "ARCA_Fee_Schedule.pdf",
+    "url": "https://www.nyse.com/publicdocs/nyse/markets/arca-options/NYSE_Arca_Options_Fee_Schedule.pdf"
+  },
+  "AMEX": {
+    "effective_date": "2026-06-22",
+    "raw": "June 22, 2026",
+    "source": "NYSE American PDF 'Effective as of'",
+    "file": "AMEX_Fee_Schedule.pdf",
+    "url": "https://www.nyse.com/publicdocs/nyse/markets/american-options/NYSE_American_Options_Fee_Schedule.pdf"
+  },
+  "Pearl": {
+    "effective_date": "2026-07-01",
+    "raw": "07012026",
+    "source": "MIAX URL date stamp",
+    "file": "Pearl_Fee_Schedule.pdf",
+    "url": "https://www.miaxglobal.com/sites/default/files/fee_schedule-files/MIAX_Pearl_Options_Highlighted_Fee_Changes_07012026.pdf"
+  },
+  "Sapphire": {
+    "effective_date": "2026-07-01",
+    "raw": "07012026",
+    "source": "MIAX URL date stamp",
+    "file": "Sapphire_Fee_Schedule.pdf",
+    "url": "https://www.miaxglobal.com/sites/default/files/fee_schedule-files/MIAX_Sapphire_Highlight_of_Fee_Changes_07012026.pdf"
+  },
+  "Emerald": {
+    "effective_date": "2026-07-01",
+    "raw": "07012026",
+    "source": "MIAX URL date stamp",
+    "file": "Emerald_Fee_Schedule.pdf",
+    "url": "https://www.miaxglobal.com/sites/default/files/fee_schedule-files/MIAX_Emerald_Highlighted_Fee_Changes_07012026.pdf"
+  },
+  "MIAX": {
+    "effective_date": "2026-07-01",
+    "raw": "07012026",
+    "source": "MIAX URL date stamp",
+    "file": "MIAX_Fee_Schedule.pdf",
+    "url": "https://www.miaxglobal.com/sites/default/files/fee_schedule-files/MIAX_Pearl_Options_Fee_Schedule_07012026.pdf"
+  },
+  "BOX": {
+    "effective_date": "2026-07-01",
+    "raw": "July 1, 2026",
+    "source": "BOX URL date stamp",
+    "file": "BOX_Fee_Schedule.pdf",
+    "url": "https://boxexchange.com/assets/BOX-Fee-Schedule-as-of-July-1-2026.pdf"
+  }
+}

@@ -2,7 +2,7 @@
 exchange: ISE
 effective_date: 2026-06-11
 source_url: https://listingcenter.nasdaq.com/rulebook/ise/rules/ISE%20Options%207
-fetched: 2026-06-30
+fetched: 2026-07-01
 ---
 
 # Nasdaq ISE — Fee Schedule
@@ -673,8 +673,8 @@ Pg2-U4 for Non-Registered Persons - $100 per Individual (one time).
 C. Options Regulatory Fee
 As of January 2, 2026, the ORF is $0.0011 per contract side.
 The Options Regulatory Fee (“ORF”) is assessed by ISE to each ISE Member for options transactions cleared by The Options Clearing Corporation (“OCC”) in the customer range where: (1) the execution occurs on ISE or (2) the execution occurs on another exchange and is cleared by an ISE Member.  The ORF is collected by OCC on behalf of ISE from (1) ISE clearing members for all customer transactions they clear or (2) non-members for all customer transactions they clear that were executed on ISE.  ISE uses reports from OCC when assessing and collecting ORF.  The Exchange will notify Members via an Options Trader Alert of any change in the amount of the fee at least 30 calendar days prior to the effective date of the change.
-Effective July 1, 2026, the ORF is $0.0092 per contract side
-The Options Regulatory Fee (“ORF”) is assessed by ISE for options transactions cleared by The Options Clearing Corporation (“OCC”) in the customer range for executions that occur on ISE.  Specifically, the ORF is collected by OCC on behalf of ISE from ISE Members and non-Members for all customer transactions executed on ISE.  The Exchange will notify Members via an Options Trader Alert of any change in the amount of the fee at least 30 calendar days prior to the effective date of the change.
+Effective July 1, 2026, the ORF is $0.0080 per contract side
+The Options Regulatory Fee (“ORF”) is assessed by ISE for options transactions cleared by The Options Clearing Corporation (“OCC”) in the customer range for executions that occur on ISE.  The ORF is collected by the OCC on behalf of the Exchange from either (1) a Member that was the clearing firm for the transaction or (2) a non-Member that was the clearing firm where a Member was the executing firm for the transaction.  The Exchange will notify Members via an Options Trader Alert of any change in the amount of the fee at least 30 calendar days prior to the effective date of the change.
 D. Reserved.
 E. FINRA Web CRD Fees
 These fees are collected and retained by FINRA via the Web CRD registration system for the registration of
@@ -705,7 +705,7 @@ Continuing Education Fee:
 The Continuing Education Fee will be assessed as to each individual who is required to complete the Regulatory Element of the Continuing Education Requirements pursuant to Exchange General 4, Section 1240.  This fee is paid directly to FINRA.
 Maintaining Qualifications Program (“MQP”) Fee : $100 fee for each individual electing to participate in the continuing education program under FINRA Rule 1240(c) for each year that such individual is participating in the program.  Individuals who elect to participate in the program within two years from the termination of a registration would also be assessed any accrued annual fee.  This fee is paid directly to FINRA.
 $25 Continuing Education Regulatory Element Session Fee for all Registrations.  This fee will be assessed as to each individual who is required to complete the Regulatory Element of the Continuing Education Requirements pursuant to Exchange General 4, Section 1240.  This fee is paid directly to FINRA.
-Adopted October 23, 2018 (SR-ISE-2018-89); amended June 6, 2019 (SR-ISE-2019-17); amended Nov. 2, 2020 (SR-ISE-2020-37); amended Nov. 13, 2020 (SR-ISE-2020-39); amended March 16, 2021 (SR-ISE-2021-04), operative April 1, 2021; amended July 30, 2021 (SR-ISE-2021-16), operative October 1, 2021; amended November 5, 2021 (SR-ISE-2021-24), operative January 2, 2022; amended Jan. 11, 2022 (SR-ISE-2022-01), operative Jan. 31, 2022; amended Jan. 20, 2022 (SR-ISE-2022-02), operative Feb. 1, 2022; amended Nov. 29, 2022 (SR-ISE-2022-26); amended Dec. 7, 2022 (SR-ISE-2022-26); amended Jul. 25, 2023 (SR-ISE-2023-14), operative Aug. 1, 2023; amended Oct. 15, 2024 (SR-ISE-2024-49), operative Jan. 1, 2025; amended Nov. 27, 2024 (SR-ISE-2024-56), operative Jan. 1, 2025; amended Jan. 28, 2025 (SR-ISE-2025-06); amended Apr. 28, 2025 (SR-ISE-2025-13); amended Jul. 17, 2025 (SR-ISE-2025-20), operative Jan. 2, 2026; amended Sep. 5, 2025 (SR-ISE-2025-25); amended Dec. 31, 2025 (SR-ISE-2025-45), operative Jan. 1, 2026; amended Dec. 19, 2025 (SR-ISE-2025-42), operative Jan. 2, 2026.
+Adopted October 23, 2018 (SR-ISE-2018-89); amended June 6, 2019 (SR-ISE-2019-17); amended Nov. 2, 2020 (SR-ISE-2020-37); amended Nov. 13, 2020 (SR-ISE-2020-39); amended March 16, 2021 (SR-ISE-2021-04), operative April 1, 2021; amended July 30, 2021 (SR-ISE-2021-16), operative October 1, 2021; amended November 5, 2021 (SR-ISE-2021-24), operative January 2, 2022; amended Jan. 11, 2022 (SR-ISE-2022-01), operative Jan. 31, 2022; amended Jan. 20, 2022 (SR-ISE-2022-02), operative Feb. 1, 2022; amended Nov. 29, 2022 (SR-ISE-2022-26); amended Dec. 7, 2022 (SR-ISE-2022-26); amended Jul. 25, 2023 (SR-ISE-2023-14), operative Aug. 1, 2023; amended Oct. 15, 2024 (SR-ISE-2024-49), operative Jan. 1, 2025; amended Nov. 27, 2024 (SR-ISE-2024-56), operative Jan. 1, 2025; amended Jan. 28, 2025 (SR-ISE-2025-06); amended Apr. 28, 2025 (SR-ISE-2025-13); amended Jul. 17, 2025 (SR-ISE-2025-20), operative Jan. 2, 2026; amended Sep. 5, 2025 (SR-ISE-2025-25); amended Dec. 31, 2025 (SR-ISE-2025-45), operative Jan. 1, 2026; amended Dec. 19, 2025 (SR-ISE-2025-42), operative Jan. 2, 2026; amended Jun. 5, 2026 (SR-ISE-2026-36), operative Jul. 1, 2026.
 
 Section 10. Market Data
 A. Nasdaq ISE Trade Outline End of Day

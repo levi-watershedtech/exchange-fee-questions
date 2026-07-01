@@ -1,0 +1,70 @@
+{
+  "new_run": "2026-07-01",
+  "previous_run": "2026-06-30",
+  "changed": [
+    {
+      "exchange": "NOM",
+      "reason": "effective date changed",
+      "old_date": "2026-04-30",
+      "new_date": "2026-06-08",
+      "file": "NOM_Fee_Schedule.html"
+    },
+    {
+      "exchange": "NTX",
+      "reason": "effective date changed",
+      "old_date": "2026-04-06",
+      "new_date": "2026-04-14",
+      "file": "NTX_Fee_Schedule.html"
+    },
+    {
+      "exchange": "Gemini",
+      "reason": "effective date changed",
+      "old_date": "2026-05-13",
+      "new_date": "2026-05-29",
+      "file": "Gemini_Fee_Schedule.html"
+    },
+    {
+      "exchange": "Mercury",
+      "reason": "effective date changed",
+      "old_date": "2026-03-12",
+      "new_date": "2026-06-04",
+      "file": "Mercury_Fee_Schedule.html"
+    },
+    {
+      "exchange": "Pearl",
+      "reason": "effective date changed",
+      "old_date": "2026-06-01",
+      "new_date": "2026-07-01",
+      "file": "Pearl_Fee_Schedule.pdf"
+    },
+    {
+      "exchange": "Sapphire",
+      "reason": "effective date changed",
+      "old_date": "2026-05-13",
+      "new_date": "2026-07-01",
+      "file": "Sapphire_Fee_Schedule.pdf"
+    },
+    {
+      "exchange": "Emerald",
+      "reason": "effective date changed",
+      "old_date": "2026-06-01",
+      "new_date": "2026-07-01",
+      "file": "Emerald_Fee_Schedule.pdf"
+    },
+    {
+      "exchange": "MIAX",
+      "reason": "effective date changed",
+      "old_date": "2026-06-01",
+      "new_date": "2026-07-01",
+      "file": "MIAX_Fee_Schedule.pdf"
+    },
+    {
+      "exchange": "BOX",
+      "reason": "effective date changed",
+      "old_date": "2026-04-24",
+      "new_date": "2026-07-01",
+      "file": "BOX_Fee_Schedule.pdf"
+    }
+  ],
+  "needs_review": []
+}

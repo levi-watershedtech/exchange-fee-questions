@@ -1,13 +1,13 @@
 ---
 exchange: Mercury
-effective_date: 2026-03-12
+effective_date: 2026-06-04
 source_url: https://listingcenter.nasdaq.com/rulebook/mrx/rules/MRX%20Options%207
-fetched: 2026-06-30
+fetched: 2026-07-01
 ---
 
 # Nasdaq MRX (Mercury) — Fee Schedule
 
-*Effective 2026-03-12. Source: https://listingcenter.nasdaq.com/rulebook/mrx/rules/MRX%20Options%207*
+*Effective 2026-06-04. Source: https://listingcenter.nasdaq.com/rulebook/mrx/rules/MRX%20Options%207*
 
 Options 7 Pricing Schedule
 Section 1. General Provisions
@@ -239,8 +239,8 @@ B. Marketing Fee
 C. Options Regulatory Fee
 As of January 2, 2026, the ORF is $0.0007 per contract side.
 The Options Regulatory Fee (“ORF”) is assessed by MRX to each MRX Member for options transaction cleared by The Options Clearing Corporation (“OCC”) in the customer range where: (1) the execution occurs on MRX or (2) the execution occurs on another exchange and is cleared by an MRX Member.  The ORF is collected by OCC on behalf of MRX from (1) MRX clearing members for all customer transactions they clear or (2) non-members for all customer transactions they clear that were executed on MRX.  MRX uses reports from OCC when assessing and collecting ORF.  The Exchange will notify Members via an Options Trader Alert of any change in the amount of the fee at least 30 calendar days prior to the effective date of the change.
-Effective July 1, 2026, the ORF is $0.0116 per contract side
-The Options Regulatory Fee (“ORF”) is assessed by MRX for options transactions cleared by The Options Clearing Corporation (“OCC”) in the customer range for executions that occur on MRX. Specifically, the ORF is collected by OCC on behalf of MRX from MRX Members and non-Members for all customer transactions executed on MRX. The Exchange will notify Members via an Options Trader Alert of any change in the amount of the fee at least 30 calendar days prior to the effective date of the change.
+Effective July 1, 2026, the ORF is $0.0080 per contract side
+The Options Regulatory Fee (“ORF”) is assessed by MRX for options transactions cleared by The Options Clearing Corporation (“OCC”) in the customer range for executions that occur on MRX. The ORF is collected by the OCC on behalf of the Exchange from either (1) a Member that was the clearing firm for the transaction or (2) a non-Member that was the clearing firm where a Member was the executing firm for the transaction. The Exchange will notify Members via an Options Trader Alert of any change in the amount of the fee at least 30 calendar days prior to the effective date of the change.
 D. FINRA Web CRD Fees
 These fees are collected and retained by FINRA via the Web CRD registration system for the registration of
             associated persons of member organizations of the Exchange that are not FINRA members. FINRA, on behalf of the Exchange, will bill and collect these fees.
@@ -285,7 +285,7 @@ F.  CMM Trading Right Fees
 
 Adopted August 31, 2018 (SR-MRX-2018-27); amended February 1, 2019 (SR-MRX-2019-03); amended June 12, 2019
             (SR-MRX-2019-12); amended June 24, 2019 (SR-MRX-2019-14); amended July 8, 2019 (SR-MRX-2019-15); amended
-            June 1, 2020 (SR-MRX-2020-11); amended July 1, 2020 (SR-MRX-2020-14); amended Nov. 6, 2020 (SR-MRX-2020-21; amended Apr. 1, 2021 (SR-MRX-2021-02); amended Apr. 13, 2021 (SR-MRX-2021-04); amended November 5, 2021 (SR-MRX-2021-11), operative January 2, 2022; amended Jan. 11, 2022 (SR-MRX-2022-01), operative Jan. 31, 2022); amended May. 2, 2022 (SR-MRX-2022-04); amended Jun. 29, 2022 (SR-MRX-2022-07), operative Jun. 29, 2022; amended Aug. 25, 2022 (SR-MRX-2022-13); amended Oct. 5, 2022 (SR-MRX-2022-19); amended Nov. 1, 2022 (SR-MRX-2022-24); amended Sep. 30, 2022 (SR-MRX-2022-18), operative Nov. 7, 2022; amended Nov. 29, 2022 (SR-MRX-2022-26); amended Dec. 7, 2022 (SR-MRX-2022-26); amended Nov. 1, 2023 (SR-MRX-2023-20); amended Oct. 15, 2024 (SR-MRX-2024-39), operative Jan. 1, 2025; amended Nov. 27, 2024 (SR-MRX-2024-45), operative Jan. 1, 2025; amended Jan. 28, 2025 (SR-MRX-2025-05); amended Apr. 30, 2025 (SR-MRX-2025-08); amended May 12, 2025 (SR-MRX-2025-11); amended Jul. 17, 2025 (SR-MRX-2025-15), operative Jan. 2, 2026; amended Dec. 31, 2025 (SR-MRX-2025-35), operative Jan. 1, 2026; amended Dec. 19, 2025 (SR-MRX-2025-33), operative Jan. 1, 2026.
+            June 1, 2020 (SR-MRX-2020-11); amended July 1, 2020 (SR-MRX-2020-14); amended Nov. 6, 2020 (SR-MRX-2020-21; amended Apr. 1, 2021 (SR-MRX-2021-02); amended Apr. 13, 2021 (SR-MRX-2021-04); amended November 5, 2021 (SR-MRX-2021-11), operative January 2, 2022; amended Jan. 11, 2022 (SR-MRX-2022-01), operative Jan. 31, 2022); amended May. 2, 2022 (SR-MRX-2022-04); amended Jun. 29, 2022 (SR-MRX-2022-07), operative Jun. 29, 2022; amended Aug. 25, 2022 (SR-MRX-2022-13); amended Oct. 5, 2022 (SR-MRX-2022-19); amended Nov. 1, 2022 (SR-MRX-2022-24); amended Sep. 30, 2022 (SR-MRX-2022-18), operative Nov. 7, 2022; amended Nov. 29, 2022 (SR-MRX-2022-26); amended Dec. 7, 2022 (SR-MRX-2022-26); amended Nov. 1, 2023 (SR-MRX-2023-20); amended Oct. 15, 2024 (SR-MRX-2024-39), operative Jan. 1, 2025; amended Nov. 27, 2024 (SR-MRX-2024-45), operative Jan. 1, 2025; amended Jan. 28, 2025 (SR-MRX-2025-05); amended Apr. 30, 2025 (SR-MRX-2025-08); amended May 12, 2025 (SR-MRX-2025-11); amended Jul. 17, 2025 (SR-MRX-2025-15), operative Jan. 2, 2026; amended Dec. 31, 2025 (SR-MRX-2025-35), operative Jan. 1, 2026; amended Dec. 19, 2025 (SR-MRX-2025-33), operative Jan. 1, 2026; amended Jun. 5, 2026 (SR-MRX-2026-27), operative Jul. 1, 2026.
 
 Section 6. Ports and Other Services
 The below charges are assessed by MRX for connectivity to MRX.

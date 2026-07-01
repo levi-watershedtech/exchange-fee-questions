@@ -1,13 +1,13 @@
 ---
 exchange: NOM
-effective_date: 2026-04-30
+effective_date: 2026-06-08
 source_url: https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/Nasdaq%20Options%207
-fetched: 2026-06-30
+fetched: 2026-07-01
 ---
 
 # Nasdaq Options Market (NOM) — Fee Schedule
 
-*Effective 2026-04-30. Source: https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/Nasdaq%20Options%207*
+*Effective 2026-06-08. Source: https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/Nasdaq%20Options%207*
 
 Options 7 Pricing Schedule
 
@@ -493,19 +493,19 @@ Adopted Jan. 6, 2012 (SR-NASDAQ-2012-006); amended Nov. 28, 2014 (SR-NASDAQ-2014
             1, 2017; amended Oct. 18, 2017 (SR-NASDAQ-2017-111); amended Nov. 19, 2018 (SR-NASDAQ-2018-098); amended
             Dec. 6, 2019 (SR-NASDAQ-2019-098); amended Jul. 1, 2024 (SR-NASDAQ-2024-034); amended Jul. 15, 2024 (SR-NASDAQ-2024-040); amended Jul. 29, 2024 (SR-NASDAQ-2024-043); amended Sep. 6, 2024 (SR-NASDAQ-2024-055); amended Dec. 24, 2024 (SR-NASDAQ-2024-086), operative Jan. 1, 2025; amended April 16, 2026 (SR-NASDAQ-2026-034), operative Jul. 27, 2026.
 
-Section 5 Nasdaq Options Regulatory
+Section 5 Options Regulatory
         Fee
 Effective January 2, 2026, the ORF will be $0.0006 per contract side .
 The Options Regulatory Fee (“ORF”) is assessed by NOM to each NOM Participant for options transactions cleared by OCC in the Customer range where: (1) the execution occurs on NOM or (2) the execution occurs on another exchange and is cleared by a NOM Participant. The ORF is collected by OCC on behalf of NOM from (1) NOM clearing members for all Customer transactions they clear or (2) non-members for all Customer transactions they clear that were executed on NOM. NOM uses reports from OCC when assessing and collecting ORF. The Exchange will notify Participants via an Options Trader Alert of any change in the amount of the fee at least 30 calendar days prior to the effective date of the change.
 NOM Participants who do not transact an equities business on The Nasdaq Stock Market LLC in a calendar year will receive a refund of the fees specified in Equity 7, Section 30(b) upon written notification to the Exchange along with documentation evidencing that no equities business was conducted on The Nasdaq Stock Market for that calendar year. The Exchange will accept refund requests up until sixty (60) days after the end of the calendar year.
-Effective July 1, 2026, the ORF is $0.0157 per contract side
-The Options Regulatory Fee (“ORF”) is assessed by NOM for options transactions cleared by The Options Clearing Corporation (“OCC”) in the customer range for executions that occur on NOM.  Specifically, the ORF is collected by OCC on behalf of NOM from NOM Participants and non-members for all customer transactions executed on NOM.  The Exchange will notify Participants via an Options Trader Alert of any change in the amount of the fee at least 30 calendar days prior to the effective date of the change.
+Effective July 1, 2026, the ORF is $0.0200 per contract side
+The Options Regulatory Fee (“ORF”) is assessed by NOM for options transactions cleared by The Options Clearing Corporation (“OCC”) in the customer range for executions that occur on NOM.  The ORF is collected by the OCC on behalf of the Exchange from either (1) a Participant that was the clearing firm for the transaction or (2) a non-Participant that was the clearing firm where a Participant was the executing firm for the transaction.  The Exchange will notify Participants via an Options Trader Alert of any change in the amount of the fee at least 30 calendar days prior to the effective date of the change.
 Adopted Jan. 6, 2012 (SR-NASDAQ-2012-006); amended Feb. 11, 2014 (SR-NASDAQ-2014-018), operative Mar. 3,
             2014; amended Jan. 8, 2016 (SR-NASDAQ-2016-003), operative Feb. 1, 2016; amended July 6, 2016
             (SR-NASDAQ-2016-096), operative Aug. 1, 2016; amended July 26, 2017 (SR-NASDAQ-2017-068), operative Aug. 1,
             2017; amended Sept. 25, 2017 (SR-NASDAQ-2017-099); amended Oct. 18, 2017 (SR-NASDAQ-2017-111); amended July
             27, 2018 (SR-NASDAQ-2018-062), operative Aug. 1, 2018; amended Nov. 19, 2018 (SR-NASDAQ-2018-098); amended
-            Feb. 1, 2019 (SR-NASDAQ-2019-006); amended Aug. 3, 2020 (SR-NASDAQ-2020-047); amended Aug. 13, 2020 (SR-NASDAQ-2020-052); amended August 5, 2021 (SR-NASDAQ-2021-057), operative October 1, 2021; amended Jan. 20, 2022 (SR-NASDAQ-2022-007), operative Feb. 1, 2022; amended Oct. 15, 2024 (SR-NASDAQ-2024-058), operative Nov. 1, 2024 through November 26, 2024; amended Nov. 27, 2024 (SR-NASDAQ-2024-078), operative Nov. 27, 2024 and Jan. 1, 2025; amended Jan. 28, 2025 (SR-NASDAQ-2025-009); amended Apr. 30, 2025 (SR-NASDAQ-2025-035), operative May 1, 2025; amended Jul. 17, 2025 (SR-NASDAQ-2025-054), operative Jan. 2, 2026; amended Jul. 1, 2025 (SR-NASDAQ-2025-050), operative Aug. 1, 2025; amended Sep. 5, 2025 (SR-NASDAQ-2025-070), operative Oct. 1, 2025; amended Dec. 19, 2025 (SR-NASDAQ-2025-108), operative Jan. 2, 2026.
+            Feb. 1, 2019 (SR-NASDAQ-2019-006); amended Aug. 3, 2020 (SR-NASDAQ-2020-047); amended Aug. 13, 2020 (SR-NASDAQ-2020-052); amended August 5, 2021 (SR-NASDAQ-2021-057), operative October 1, 2021; amended Jan. 20, 2022 (SR-NASDAQ-2022-007), operative Feb. 1, 2022; amended Oct. 15, 2024 (SR-NASDAQ-2024-058), operative Nov. 1, 2024 through November 26, 2024; amended Nov. 27, 2024 (SR-NASDAQ-2024-078), operative Nov. 27, 2024 and Jan. 1, 2025; amended Jan. 28, 2025 (SR-NASDAQ-2025-009); amended Apr. 30, 2025 (SR-NASDAQ-2025-035), operative May 1, 2025; amended Jul. 17, 2025 (SR-NASDAQ-2025-054), operative Jan. 2, 2026; amended Jul. 1, 2025 (SR-NASDAQ-2025-050), operative Aug. 1, 2025; amended Sep. 5, 2025 (SR-NASDAQ-2025-070), operative Oct. 1, 2025; amended Dec. 19, 2025 (SR-NASDAQ-2025-108), operative Jan. 2, 2026; amended Jun. 5, 2026 (SR-NASDAQ-2026-052), operative Jul. 1, 2026.
 
 Section 6 Nasdaq Options
         Maintenance Tool

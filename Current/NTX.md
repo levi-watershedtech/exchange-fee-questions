@@ -1,13 +1,13 @@
 ---
 exchange: NTX
-effective_date: 2026-04-06
+effective_date: 2026-04-14
 source_url: https://listingcenter.nasdaq.com/rulebook/nasdaqtx/rules/NTX%20Options%207
-fetched: 2026-06-30
+fetched: 2026-07-01
 ---
 
 # Nasdaq BX (NTX) Options — Fee Schedule
 
-*Effective 2026-04-06. Source: https://listingcenter.nasdaq.com/rulebook/nasdaqtx/rules/NTX%20Options%207*
+*Effective 2026-04-14. Source: https://listingcenter.nasdaq.com/rulebook/nasdaqtx/rules/NTX%20Options%207*
 
 Options 7 Pricing Schedule
 Section 1 General Provisions
@@ -315,14 +315,14 @@ Adopted by SR-BX-2012-030 eff. June 26, 2012; amended June 11, 2013 (SR-BX-2013-
             (SR-BX-2018-046); amended October 23, 2019 (SR-BX-2019-039); amended Sep. 3, 2024 (SR-BX-2024-034); amended Sep. 13, 2024 (SR-BX-2024-036); amended Sep. 27, 2024 (SR-BX-2024-039); amended Oct. 9, 2024 (SR-BX-2024-041) ; amended Dec. 23, 2024 (SR-BX-2024-058),
 operative Jan. 1, 2025 .
 
-Section 5 NTX Options Regulatory Fee
+Section 5 Options Regulatory Fee
 As of January 2, 2026, the ORF is $0.0005 per contract side.
 The Options Regulatory Fee (“ORF”) is assessed by NTX to each NTX Participant for options transactions cleared by OCC in the Customer range where: (1) the execution occurs on NTX or (2) the execution occurs on another exchange and is cleared by a NTX Participant. The ORF is collected by OCC on behalf of NTX from (1) NTX clearing members for all Customer transactions they clear or (2) non-members for all Customer transactions they clear that were executed on NTX.  NTX uses reports from OCC when assessing and collecting ORF.  The Exchange will notify Participants via an Options Trader Alert of any change in the amount of the fee at least 30 calendar days prior to the effective date of the change.
-Effective July 1, 2026, the ORF is $0.0198 per contract side
-The Options Regulatory Fee (“ORF”) is assessed by NTX for options transactions cleared by The Options Clearing Corporation (“OCC”) in the customer range for executions that occur on NTX.  Specifically, the ORF is collected by OCC on behalf of NTX from NTX Participants and non-members for all customer transactions executed on NTX.  The Exchange will notify Participants via an Options Trader Alert of any change in the amount of the fee at least 30 calendar days prior to the effective date of the change.
+Effective July 1, 2026, the ORF is $0.0200 per contract side
+The Options Regulatory Fee (“ORF”) is assessed by NTX for options transactions cleared by The Options Clearing Corporation (“OCC”) in the customer range for executions that occur on NTX.  The ORF is collected by the OCC on behalf of the Exchange from either (1) a Participant that was the clearing firm for the transaction or (2) a non-Participant that was the clearing firm where a Participant was the executing firm for the transaction.  The Exchange will notify Participants via an Options Trader Alert of any change in the amount of the fee at least 30 calendar days prior to the effective date of the change.
 Adopted by SR-BX-2012-030 eff. June 26, 2012; amended Jan. 21, 2016 (SR-BX-2016-007), operative Feb. 1, 2016;
             amended July 6, 2016 (SR-BX-2016-043), operative Aug. 1, 2016; amended July 26, 2017 (SR-BX-2017-032),
-            operative Aug. 1, 2017; amended Oct. 2, 2017 (SR-BX-2017-040); amended Sept. 17, 2018 (SR-BX-2018-046); amended Oct. 15, 2024 (SR-BX-2024-040), operative Jan. 1, 2025; amended Nov. 27Dec. 9, 2024 (SR-BX-2024-054), operative Jan. 1, 2025; amended Jan. 28, 2025 (SR-BX-2025-005); amended Apr. 30, 2025 (SR-BX-2025-009); amended Jul. 17, 2025 (SR-BX-2025-012), operative Jan. 2, 2026; amended Sep. 5, 2025 (SR-BX-2025-019), operative Oct. 1, 2025; amended Dec. 19, 2025 (SR-BX-2025-035), operative Jan. 2, 2026.
+            operative Aug. 1, 2017; amended Oct. 2, 2017 (SR-BX-2017-040); amended Sept. 17, 2018 (SR-BX-2018-046); amended Oct. 15, 2024 (SR-BX-2024-040), operative Jan. 1, 2025; amended Nov. 27Dec. 9, 2024 (SR-BX-2024-054), operative Jan. 1, 2025; amended Jan. 28, 2025 (SR-BX-2025-005); amended Apr. 30, 2025 (SR-BX-2025-009); amended Jul. 17, 2025 (SR-BX-2025-012), operative Jan. 2, 2026; amended Sep. 5, 2025 (SR-BX-2025-019), operative Oct. 1, 2025; amended Dec. 19, 2025 (SR-BX-2025-035), operative Jan. 2, 2026; amended Jun. 5, 2026 (SR-NasdaqTX-2026-029), operative Jul. 1, 2026.
 
 Section 6 NTX Options Maintenance Tool
 The NTX Options Maintenance Tool will be available to each subscriber for a subscription fee of $200 per

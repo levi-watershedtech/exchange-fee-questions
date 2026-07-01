@@ -1,13 +1,13 @@
 ---
 exchange: Gemini
-effective_date: 2026-05-13
+effective_date: 2026-05-29
 source_url: https://listingcenter.nasdaq.com/rulebook/gemx/rules/GEMX%20Options%207
-fetched: 2026-06-30
+fetched: 2026-07-01
 ---
 
 # Nasdaq GEMX — Fee Schedule
 
-*Effective 2026-05-13. Source: https://listingcenter.nasdaq.com/rulebook/gemx/rules/GEMX%20Options%207*
+*Effective 2026-05-29. Source: https://listingcenter.nasdaq.com/rulebook/gemx/rules/GEMX%20Options%207*
 
 Options 7 Pricing Schedule
 Section 1. General Provisions
@@ -232,10 +232,11 @@ A GEMX Member will not be entitled to receive any other revenue for the use of i
 Adopted September 12, 2018 (SR-GEMX-2018-29); amended June 1, 2020 (SR-GEMX-2020-14); amended July 1, 2020 (SR-GEMX-2020-17); amended July 14, 2020 (SR-GEMX-2020-18); amended Oct. 3, 2022 (SR-GEMX-2022-09); amended Nov. 1, 2023 (SR-GEMX-2023-14); amended Dec. 15, 2025 (SR-GEMX-2025-34).
 
 Section 5. Legal & Regulatory
+A. Options Regulatory Fee
 As of January 2, 2026, the ORF is $0.0008 per contract side.
 The Options Regulatory Fee (“ORF”) is assessed by GEMX to each GEMX Member for options transactions cleared by The Options Clearing Corporation (“OCC”) in the customer where: (1) the execution occurs on GEMX or (2) the execution occurs on another exchange and is cleared by a GEMX Member.  The ORF is collected by OCC on behalf of GEMX from (1) GEMX clearing members for all customer transactions they clear or (2) non-members for all customer transactions they clear that were executed on GEMX.  GEMX uses reports from OCC when assessing and collecting ORF.  The Exchange will notify Members via an Options Trader Alert of any change in the amount of the fee at least 30 calendar days prior to the effective date of the change.
-Effective July 1, 2026, the ORF is $0.0116 per contract side
-The Options Regulatory Fee (“ORF”) is assessed by GEMX for options transactions cleared by The Options Clearing Corporation (“OCC”) in the customer range for executions that occur on GEMX. Specifically, the ORF is collected by OCC on behalf of GEMX from GEMX Members and non-Members for all customer transactions executed on GEMX.  The Exchange will notify Members via an Options Trader Alert of any change in the amount of the fee at least 30 calendar days prior to the effective date of the change.
+Effective July 1, 2026, the ORF is $0.0100 per contract side
+The Options Regulatory Fee (“ORF”) is assessed by GEMX for options transactions cleared by The Options Clearing Corporation (“OCC”) in the customer range for executions that occur on GEMX. The ORF is collected by the OCC on behalf of the Exchange from either (1) a Member that was the clearing firm for the transaction or (2) a non-Member that was the clearing firm where a Member was the executing firm for the transaction.  The Exchange will notify Members via an Options Trader Alert of any change in the amount of the fee at least 30 calendar days prior to the effective date of the change.
 B. FINRA Web CRD Fees
 These fees are collected and retained by FINRA via the Web CRD registration system for the registration of
             associated persons of member organizations of the Exchange that are not FINRA members. FINRA, on behalf of the Exchange, will bill and collect these fees.
@@ -271,7 +272,7 @@ Primary Market Maker - $3,000 per Firm (one time).
 Competitive Market Maker - $2,000 per Firm (one time).
 Electronic Access Member - $1,500 per Firm (one time).
 Adopted September 12, 2018 (SR-GEMX-2018-29); amended February 1, 2019 (SR-GEMX-2019-01); amended June 27,
-            2019 (SR-GEMX-2019-08); amended August 9, 2021 (SR-GEMX-2021-08), operative October 1, 2021; amended November 5, 2021 (SR-GEMX-2021-10), operative January 2, 2022; amended Jan. 11, 2022 (SR-GEMX-2022-02), operative January 31, 2022; amended Jan. 20, 2022 (SR-GEMX-2022-03), operative Feb. 1, 2022; amended Nov. 29, 2022 (SR-GEMX-2022-12); amended Dec. 7, 2022 (SR-GEMX-2022-12); amended Dec. 22, 2022 (SR-GEMX-2022-14), operative Feb. 1, 2023; amended Jul. 25, 2023 (SR-GEMX-2023-09), operative Aug. 1, 2023; amended Oct. 15, 2024 (SR-GEMX-2024-37), operative Jan. 1, 2025; amended Nov. 27, 2024 (SR-GEMX-2024-42), operative Jan. 1, 2025; amended Jan. 28, 2025 (SR-GEMX-2025-05); amended Apr. 28, 2025 (SR-GEMX-2025-09); amended Jul. 17, 2025 (SR-GEMX-2025-17), operative Jan. 2, 2026; amended Jul. 1, 2025 (SR-GEMX-2025-15), operative Aug. 1, 2025; amended Sep. 5, 2025 (SR-GEMX-2025-24), operative Oct. 1, 2025; amended Dec. 31, 2025 (SR-GEMX-2025-38), operative Jan. 1, 2026; amended Dec. 19, 2025 (SR-GEMX-2025-36), operative Jan. 2, 2026; amended Jan. 9, 2026 (SR-GEMX-2026-02).
+            2019 (SR-GEMX-2019-08); amended August 9, 2021 (SR-GEMX-2021-08), operative October 1, 2021; amended November 5, 2021 (SR-GEMX-2021-10), operative January 2, 2022; amended Jan. 11, 2022 (SR-GEMX-2022-02), operative January 31, 2022; amended Jan. 20, 2022 (SR-GEMX-2022-03), operative Feb. 1, 2022; amended Nov. 29, 2022 (SR-GEMX-2022-12); amended Dec. 7, 2022 (SR-GEMX-2022-12); amended Dec. 22, 2022 (SR-GEMX-2022-14), operative Feb. 1, 2023; amended Jul. 25, 2023 (SR-GEMX-2023-09), operative Aug. 1, 2023; amended Oct. 15, 2024 (SR-GEMX-2024-37), operative Jan. 1, 2025; amended Nov. 27, 2024 (SR-GEMX-2024-42), operative Jan. 1, 2025; amended Jan. 28, 2025 (SR-GEMX-2025-05); amended Apr. 28, 2025 (SR-GEMX-2025-09); amended Jul. 17, 2025 (SR-GEMX-2025-17), operative Jan. 2, 2026; amended Jul. 1, 2025 (SR-GEMX-2025-15), operative Aug. 1, 2025; amended Sep. 5, 2025 (SR-GEMX-2025-24), operative Oct. 1, 2025; amended Dec. 31, 2025 (SR-GEMX-2025-38), operative Jan. 1, 2026; amended Dec. 19, 2025 (SR-GEMX-2025-36), operative Jan. 2, 2026; amended Jan. 9, 2026 (SR-GEMX-2026-02); amended Jun. 5, 2026 (SR-GEMX-2026-25), operative Jul. 1, 2026.
 
 Section 6. Connectivity Fees
 A. Access Fees
