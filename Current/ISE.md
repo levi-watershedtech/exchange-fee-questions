@@ -1,13 +1,13 @@
 ---
 exchange: ISE
-effective_date: 2026-06-11
+effective_date: 2026-07-01
 source_url: https://listingcenter.nasdaq.com/rulebook/ise/rules/ISE%20Options%207
-fetched: 2026-07-01
+fetched: 2026-07-02
 ---
 
 # Nasdaq ISE — Fee Schedule
 
-*Effective 2026-06-11. Source: https://listingcenter.nasdaq.com/rulebook/ise/rules/ISE%20Options%207*
+*Effective 2026-07-01. Source: https://listingcenter.nasdaq.com/rulebook/ise/rules/ISE%20Options%207*
 
 Options 7 Pricing Schedule
 Section 1. General Provisions

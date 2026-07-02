@@ -1,0 +1,49 @@
+{
+  "new_run": "2026-07-02",
+  "previous_run": "2026-07-01",
+  "changed": [
+    {
+      "exchange": "BZX",
+      "reason": "effective date changed",
+      "old_date": "2026-05-28",
+      "new_date": "2026-07-01",
+      "file": "BZX_Fee_Schedule.html"
+    },
+    {
+      "exchange": "C2",
+      "reason": "effective date changed",
+      "old_date": "2026-05-28",
+      "new_date": "2026-07-01",
+      "file": "C2_Fee_Schedule.html"
+    },
+    {
+      "exchange": "EDGX",
+      "reason": "effective date changed",
+      "old_date": "2026-05-28",
+      "new_date": "2026-07-01",
+      "file": "EDGX_Fee_Schedule.html"
+    },
+    {
+      "exchange": "CBOE",
+      "reason": "effective date changed",
+      "old_date": "2026-06-25",
+      "new_date": "2026-07-01",
+      "file": "CBOE_Fee_Schedule.pdf"
+    },
+    {
+      "exchange": "ISE",
+      "reason": "effective date changed",
+      "old_date": "2026-06-11",
+      "new_date": "2026-07-01",
+      "file": "ISE_Fee_Schedule.html"
+    },
+    {
+      "exchange": "PHLX",
+      "reason": "effective date changed",
+      "old_date": "2026-05-29",
+      "new_date": "2026-07-01",
+      "file": "PHLX_Fee_Schedule.html"
+    }
+  ],
+  "needs_review": []
+}

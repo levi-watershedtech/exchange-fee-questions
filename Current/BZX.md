@@ -1,17 +1,17 @@
 ---
 exchange: BZX
-effective_date: 2026-05-28
+effective_date: 2026-07-01
 source_url: https://www.cboe.com/us/options/membership/fee_schedule/bzx/
-fetched: 2026-07-01
+fetched: 2026-07-02
 ---
 
 # Cboe BZX Options — Fee Schedule
 
-*Effective 2026-05-28. Source: https://www.cboe.com/us/options/membership/fee_schedule/bzx/*
+*Effective 2026-07-01. Source: https://www.cboe.com/us/options/membership/fee_schedule/bzx/*
 
 # Cboe U.S. Options Fee Schedules
 
-Effective May 28, 2026
+Effective July 1, 2026
 
 CAT Fees Schedule
 
@@ -462,17 +462,11 @@ The Unicast Access – Order Entry fee shall not be charged for bandwidth requir
 
 ## Options Regulatory Fee:
 
-Effective through June 30, 2026
-
-The per-contract side Options Regulatory Fee (“ORF”) is assessed by BZX Options to each Member for options transactions cleared by the Member on each side of a transaction that are cleared by The Options Clearing Corporation (OCC) in the “customer” range, regardless of the exchange on which the transaction occurs. The Exchange uses reports from OCC when assessing and collecting the ORF. The ORF is collected by OCC on behalf of BZX Options from the Clearing Member or non-Clearing Member on each side of the transaction that ultimately clears the transaction. With respect to linkage transactions, the Exchange reimburses its routing brokers providing Routing Services for options regulatory fees it incurs in connection with the Routing Services it provides. Pursuant to BZX Options Rule 24.1, solely for purposes of ORF billing, Members must provide BZX Options with a complete list of its OCC clearing numbers and keep such information up to date with BZX Options. The ORF will sunset on June 30, 2026, after which the ORF rate will revert back to $0.0001 per contract side.
-
-Effective as of July 1, 2026
-
-The ORF is assessed by BZX Options to each Member on each side of a transaction for options transactions cleared by the Member that are cleared by The Options Clearing Corporation (OCC) in the “customer” range for executions that occur on BZX Options. BZX Options uses reports from OCC when assessing and collecting the ORF. The fee is collected by OCC on behalf of BZX Options from the Clearing Member or non-Clearing Member on each side of the transaction that ultimately clears the transaction. With respect to linkage transactions, BZX Options reimburses its routing brokers providing Routing Services for options regulatory fees it incurs in connection with the Routing Services it provides. Pursuant to BZX Options Rule 24.1, solely for purposes of ORF billing, Members must provide BZX Options with a complete list of its OCC clearing numbers and keep such information up to date with BZX Options.
+The ORF is assessed by BZX Options to each Member on each side of a transaction for options transactions cleared by the Member that are cleared by The Options Clearing Corporation (OCC) in the “customer” range for executions that occur on BZX Options. The fee is collected by OCC on behalf of BZX Options from the Clearing Member that was the clearing firm for the transaction or a non-Member that was the clearing firm, where a Clearing Member was the executing clearing firm for the transaction. The ORF is not assessed on outbound linkage trades. Pursuant to BZX Options Rule 24.1, solely for purposes of ORF billing, Members must provide BZX Options with a complete list of its OCC clearing numbers and keep such information up to date with BZX Options.
 
 | Options Regulatory Fee (ORF) | Fee Per Executed Contract Side |
 | --- | --- |
-| All Classes | $0.0001 per contract side effective through December 31, 2025 | $0.0002 per contract side effective January 2 through June 30, 2026 | $0.0001 per contract side effective July 1, 2026 |
+| All Classes | $0.00476 per contract side |
 
 ## Membership Fees
 
