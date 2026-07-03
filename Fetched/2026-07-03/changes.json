@@ -1,0 +1,21 @@
+{
+  "new_run": "2026-07-03",
+  "previous_run": "2026-07-02",
+  "changed": [
+    {
+      "exchange": "PHLX",
+      "reason": "effective date changed",
+      "old_date": "2026-07-01",
+      "new_date": "2026-07-03",
+      "file": "PHLX_Fee_Schedule.html"
+    },
+    {
+      "exchange": "BOX",
+      "reason": "effective date changed",
+      "old_date": "2026-07-01",
+      "new_date": "2026-07-02",
+      "file": "BOX_Fee_Schedule.pdf"
+    }
+  ],
+  "needs_review": []
+}

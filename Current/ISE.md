@@ -2,7 +2,7 @@
 exchange: ISE
 effective_date: 2026-07-01
 source_url: https://listingcenter.nasdaq.com/rulebook/ise/rules/ISE%20Options%207
-fetched: 2026-07-02
+fetched: 2026-07-03
 ---
 
 # Nasdaq ISE — Fee Schedule
@@ -279,14 +279,13 @@ Section 4. Complex Order Fees and Rebates(5) (12) (15)
 | Priority Customer Complex Tier (7) (13)(16) (17) | Total Affiliated Member or Affiliated Entity Complex Order Volume (Excluding Crossing Orders and Responses to Crossing Orders) Calculated as a Percentage of Customer Total Consolidated Volume | Rebate for Select Symbols (1)(**) | Rebate for Non-Select Symbols (1)(4)(##) |
 | Tier 1 | 0.000% - 0.200% | ($0.25) | ($0.50) |
 | Tier 2 | Above 0.200% - 0.400% | ($0.30) | ($0.60) |
-| Tier 3 | Above 0.400% - 0.550% | ($0.40) | ($0.80) |
-| Tier 4 | Above 0.550% - 0.750% | ($0.45) | ($0.85) |
-| Tier 5 | Above 0.750% - 0.900% | ($0.49) | ($0.90) |
-| Tier 6 | Above 0.900% - 1.350% | ($0.53) | ($0.99) |
-| Tier 7 | Above 1.350% - 1.750% | ($0.54) | ($1.00) |
-| Tier 8 | Above 1.750% - 2.250% | ($0.56) | ($1.11) |
-| Tier 9 | Above 2.250% - 4.500% | ($0.58) | ($1.13) |
-| Tier 10 | Above 4.500% | ($0.59) | ($1.16) |
+| Tier 3 | Above 0.400% - 0.600% | ($0.40) | ($0.80) |
+| Tier 4 | Above 0.600% - 0.900% | ($0.49) | ($0.90) |
+| Tier 5 | Above 0.900% - 1.350% | ($0.53) | ($0.99) |
+| Tier 6 | Above 1.350% - 1.750% | ($0.54) | ($1.00) |
+| Tier 7 | Above 1.750% - 2.250% | ($0.56) | ($1.11) |
+| Tier 8 | Above 2.250% - 4.500% | ($0.58) | ($1.13) |
+| Tier 9 | Above 4.500% | ($0.59) | ($1.16) |
 
 **The below tiered rebates will be paid, in addition to the Priority Customer Complex rebates, for Select Symbols, provided the Member has also transacted an average daily volume of greater than 10,000 contracts of FLEX Orders in a given month. Eligible volume from Affiliated Members and Affiliated Entities will be aggregated in calculating the threshold.
 
@@ -294,13 +293,12 @@ Section 4. Complex Order Fees and Rebates(5) (12) (15)
 | --- | --- |
 | Tier 2 | ($0.02) |
 | Tier 3 | ($0.03) |
-| Tier 4 | ($0.04) |
-| Tier 5 | ($0.06) |
-| Tier 6 | ($0.02) |
-| Tier 7 | ($0.01) |
+| Tier 4 | ($0.06) |
+| Tier 5 | ($0.02) |
+| Tier 6 | ($0.01) |
+| Tier 7 | ($0.00) |
 | Tier 8 | ($0.00) |
 | Tier 9 | ($0.00) |
-| Tier 10 | ($0.00) |
 
 ##
 The below tiered rebates will be paid, in addition to the Priority Customer Complex rebates, for Non-Select Symbols, provided the Member has also transacted an average daily volume of greater than 10,000 contracts of FLEX Orders in a given month. Eligible volume from Affiliated Members and Affiliated Entities will be aggregated in calculating the threshold.
@@ -309,13 +307,12 @@ The below tiered rebates will be paid, in addition to the Priority Customer Comp
 | --- | --- |
 | Tier 2 | ($0.05) |
 | Tier 3 | ($0.10) |
-| Tier 4 | ($0.15) |
-| Tier 5 | ($0.20) |
+| Tier 4 | ($0.20) |
+| Tier 5 | ($0.12) |
 | Tier 6 | ($0.12) |
-| Tier 7 | ($0.12) |
-| Tier 8 | ($0.03) |
-| Tier 9 | ($0.01) |
-| Tier 10 | ($0.00) |
+| Tier 7 | ($0.03) |
+| Tier 8 | ($0.01) |
+| Tier 9 | ($0.00) |
 
 | Maker and Taker Fees |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -381,7 +378,7 @@ The below tiered rebates will be paid, in addition to the Priority Customer Comp
 17. Members that execute more than 0.25% of Regular Order Non-Select Symbol Priority Customer Volume (excluding Crossing Orders and Responses to Crossing Orders) calculated as a percentage of Customer Total Consolidated Volume per day in a given month will be eligible to receive the Priority Customer Complex Order rebates in Select Symbols and Non-Select Symbols that apply to one tier higher than the tier for which they currently qualify, except Members that already qualify for the highest Priority Customer Complex Tier will instead receive an additional rebate of $0.01 per contract in Select Symbols and Non-Select Symbols.
 Adopted October 23, 2018 (SR-ISE-2018-89); amended April 1, 2019 (SR-ISE-2019-09); amended June 6, 2019
             (SR-ISE-2019-17); amended January 2, 2020 (SR-ISE-2020-01); amended February 3, 2020 (SR-ISE-2020-02);
-            amended March 2, 2020 (SR-ISE-2020-09); amended March 10, 2020 (SR-ISE-2020-12); amended July 1, 2020 (SR-ISE-2020-26); amended Nov. 2, 2020 (SR-ISE-2020-37); amended Nov. 13, 2020 (SR-ISE-2020-39); amended June 8, 2021 (SR-ISE-2021-13); amended Sep. 30, 2021 (SR-ISE-2021-21), operative Oct. 1, 2021; amended Aug. 1, 2022 (SR-ISE-2022-15); amended Aug. 9, 2022 (SR-ISE-2022-16); amended Dec. 2, 2022 (SR-ISE-2022-27), operative Dec. 1, 2022; amended Dec. 13, 2022 (SR-ISE-2022-29); amended Oct. 31, 2023 (SR-ISE-2023-25); amended Nov. 1, 2023 (SR-ISE-2023-26); amended Nov. 7, 2023 (SR-ISE-2023-27); amended Nov. 13, 2023 (SR-ISE-2023-28); amended Dec. 1, 2023 (SR-ISE-2023-35); amended Jan. 2, 2024 (SR-ISE-2024-01); amended Jan. 12, 2024 (SR-ISE-2024-04); amended Feb. 29, 2024 (SR-ISE-2024-08), operative Mar. 1, 2024; amended Mar. 8, 2024 (SR-ISE-2024-11); amended Feb. 6, 2025 (SR-ISE-2025-07), operative Mar. 8, 2025; amended Nov. 3, 2025 (SR-ISE-2025-33); amended Nov. 13, 2025 (SR-ISE-2025-36); amended Feb. 27, 2026 (SR-ISE-2026-06), operative Mar. 2, 2026; amended Mar. 3, 2026 (SR-ISE-2026-10); amended Feb. 6, 2025 (SR-ISE-2025-07), operative Mar. 12, 2026; amended Apr. 30, 2026 (SR-ISE-2026-23), operative May 1, 2026; amended May 12, 2026 (SR-ISE-2026-25); amended May 12, 2026 (SR-ISE-2026-28); amended Jun. 1, 2026 (SR-ISE-2026-33); amended Jun. 9, 2026 (SR-ISE-2026-37).
+            amended March 2, 2020 (SR-ISE-2020-09); amended March 10, 2020 (SR-ISE-2020-12); amended July 1, 2020 (SR-ISE-2020-26); amended Nov. 2, 2020 (SR-ISE-2020-37); amended Nov. 13, 2020 (SR-ISE-2020-39); amended June 8, 2021 (SR-ISE-2021-13); amended Sep. 30, 2021 (SR-ISE-2021-21), operative Oct. 1, 2021; amended Aug. 1, 2022 (SR-ISE-2022-15); amended Aug. 9, 2022 (SR-ISE-2022-16); amended Dec. 2, 2022 (SR-ISE-2022-27), operative Dec. 1, 2022; amended Dec. 13, 2022 (SR-ISE-2022-29); amended Oct. 31, 2023 (SR-ISE-2023-25); amended Nov. 1, 2023 (SR-ISE-2023-26); amended Nov. 7, 2023 (SR-ISE-2023-27); amended Nov. 13, 2023 (SR-ISE-2023-28); amended Dec. 1, 2023 (SR-ISE-2023-35); amended Jan. 2, 2024 (SR-ISE-2024-01); amended Jan. 12, 2024 (SR-ISE-2024-04); amended Feb. 29, 2024 (SR-ISE-2024-08), operative Mar. 1, 2024; amended Mar. 8, 2024 (SR-ISE-2024-11); amended Feb. 6, 2025 (SR-ISE-2025-07), operative Mar. 8, 2025; amended Nov. 3, 2025 (SR-ISE-2025-33); amended Nov. 13, 2025 (SR-ISE-2025-36); amended Feb. 27, 2026 (SR-ISE-2026-06), operative Mar. 2, 2026; amended Mar. 3, 2026 (SR-ISE-2026-10); amended Feb. 6, 2025 (SR-ISE-2025-07), operative Mar. 12, 2026; amended Apr. 30, 2026 (SR-ISE-2026-23), operative May 1, 2026; amended May 12, 2026 (SR-ISE-2026-25); amended May 12, 2026 (SR-ISE-2026-28); amended Jun. 1, 2026 (SR-ISE-2026-33); amended Jun. 9, 2026 (SR-ISE-2026-37); amended Jul. 1, 2026 (SR-ISE-2026-39).
 
 Section 5. Index Options Fees and
         Rebates
