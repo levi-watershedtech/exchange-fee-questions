@@ -1,0 +1,13 @@
+{
+  "new_run": "2026-07-04",
+  "previous_run": "2026-07-03",
+  "changed": [],
+  "needs_review": [
+    {
+      "exchange": "MEMX",
+      "reason": "could not extract effective date this run",
+      "old_date": "2026-07-01",
+      "file": null
+    }
+  ]
+}
