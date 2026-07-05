@@ -1,0 +1,14 @@
+{
+  "new_run": "2026-07-05",
+  "previous_run": "2026-07-04",
+  "changed": [
+    {
+      "exchange": "MEMX",
+      "reason": "effective date changed",
+      "old_date": null,
+      "new_date": "2026-07-01",
+      "file": "MEMX_Fee_Schedule.html"
+    }
+  ],
+  "needs_review": []
+}
