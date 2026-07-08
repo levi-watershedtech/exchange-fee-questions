@@ -2,7 +2,7 @@
 exchange: BZX
 effective_date: 2026-07-01
 source_url: https://www.cboe.com/us/options/membership/fee_schedule/bzx/
-fetched: 2026-07-06
+fetched: 2026-07-08
 ---
 
 # Cboe BZX Options — Fee Schedule

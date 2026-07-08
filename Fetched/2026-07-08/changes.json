@@ -1,0 +1,14 @@
+{
+  "new_run": "2026-07-08",
+  "previous_run": "2026-07-06",
+  "changed": [
+    {
+      "exchange": "AMEX",
+      "reason": "effective date changed",
+      "old_date": "2026-07-01",
+      "new_date": "2026-07-07",
+      "file": "AMEX_Fee_Schedule.pdf"
+    }
+  ],
+  "needs_review": []
+}
