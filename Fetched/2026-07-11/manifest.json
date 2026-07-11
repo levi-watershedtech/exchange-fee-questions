@@ -1,0 +1,146 @@
+[
+  {
+    "exchange": "BZX",
+    "url": "https://www.cboe.com/us/options/membership/fee_schedule/bzx/",
+    "file": "BZX_Fee_Schedule.html",
+    "type": "html",
+    "bytes": 678855,
+    "status": "ok"
+  },
+  {
+    "exchange": "C2",
+    "url": "https://www.cboe.com/us/options/membership/fee_schedule/ctwo/",
+    "file": "C2_Fee_Schedule.html",
+    "type": "html",
+    "bytes": 676107,
+    "status": "ok"
+  },
+  {
+    "exchange": "EDGX",
+    "url": "https://www.cboe.com/us/options/membership/fee_schedule/edgx/",
+    "file": "EDGX_Fee_Schedule.html",
+    "type": "html",
+    "bytes": 694202,
+    "status": "ok"
+  },
+  {
+    "exchange": "CBOE",
+    "url": "https://cdn.cboe.com/resources/membership/Cboe_FeeSchedule.pdf",
+    "file": "CBOE_Fee_Schedule.pdf",
+    "type": "pdf",
+    "bytes": 1113782,
+    "status": "ok"
+  },
+  {
+    "exchange": "MEMX",
+    "url": "https://info.memxtrading.com/us-options-trading-resources/us-options-fee-schedule/",
+    "file": null,
+    "type": "html",
+    "bytes": 0,
+    "status": "error: HTTPSConnectionPool(host='info.memxtrading.com', port=443): Max retries exceeded with url: /us-options-trading-resources/us-options-fee-schedule/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='info.memxtrading.com', port=443) at 0x7f2d78409d60>, 'Connection to info.memxtrading.com timed out. (connect timeout=60)'))"
+  },
+  {
+    "exchange": "NOM",
+    "url": "https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/Nasdaq%20Options%207",
+    "file": "NOM_Fee_Schedule.html",
+    "type": "html",
+    "bytes": 346581,
+    "status": "ok"
+  },
+  {
+    "exchange": "NTX",
+    "url": "https://listingcenter.nasdaq.com/rulebook/nasdaqtx/rules/NTX%20Options%207",
+    "file": "NTX_Fee_Schedule.html",
+    "type": "html",
+    "bytes": 291895,
+    "status": "ok"
+  },
+  {
+    "exchange": "Gemini",
+    "url": "https://listingcenter.nasdaq.com/rulebook/gemx/rules/GEMX%20Options%207",
+    "file": "Gemini_Fee_Schedule.html",
+    "type": "html",
+    "bytes": 317286,
+    "status": "ok"
+  },
+  {
+    "exchange": "ISE",
+    "url": "https://listingcenter.nasdaq.com/rulebook/ise/rules/ISE%20Options%207",
+    "file": "ISE_Fee_Schedule.html",
+    "type": "html",
+    "bytes": 543894,
+    "status": "ok"
+  },
+  {
+    "exchange": "PHLX",
+    "url": "https://listingcenter.nasdaq.com/rulebook/phlx/rules/Phlx%20Options%207",
+    "file": "PHLX_Fee_Schedule.html",
+    "type": "html",
+    "bytes": 737810,
+    "status": "ok"
+  },
+  {
+    "exchange": "Mercury",
+    "url": "https://listingcenter.nasdaq.com/rulebook/mrx/rules/MRX%20Options%207",
+    "file": "Mercury_Fee_Schedule.html",
+    "type": "html",
+    "bytes": 382874,
+    "status": "ok"
+  },
+  {
+    "exchange": "ARCA",
+    "url": "https://www.nyse.com/publicdocs/nyse/markets/arca-options/NYSE_Arca_Options_Fee_Schedule.pdf",
+    "file": "ARCA_Fee_Schedule.pdf",
+    "type": "pdf",
+    "bytes": 320485,
+    "status": "ok"
+  },
+  {
+    "exchange": "AMEX",
+    "url": "https://www.nyse.com/publicdocs/nyse/markets/american-options/NYSE_American_Options_Fee_Schedule.pdf",
+    "file": "AMEX_Fee_Schedule.pdf",
+    "type": "pdf",
+    "bytes": 136164,
+    "status": "ok"
+  },
+  {
+    "exchange": "Pearl",
+    "url": "https://www.miaxglobal.com/sites/default/files/fee_schedule-files/MIAX_Pearl_Options_Highlighted_Fee_Changes_07012026.pdf",
+    "file": "Pearl_Fee_Schedule.pdf",
+    "type": "pdf",
+    "bytes": 264871,
+    "status": "ok"
+  },
+  {
+    "exchange": "Sapphire",
+    "url": "https://www.miaxglobal.com/sites/default/files/fee_schedule-files/MIAX_Sapphire_Highlight_of_Fee_Changes_07012026.pdf",
+    "file": "Sapphire_Fee_Schedule.pdf",
+    "type": "pdf",
+    "bytes": 153345,
+    "status": "ok"
+  },
+  {
+    "exchange": "Emerald",
+    "url": "https://www.miaxglobal.com/sites/default/files/fee_schedule-files/MIAX_Emerald_Highlighted_Fee_Changes_07012026.pdf",
+    "file": "Emerald_Fee_Schedule.pdf",
+    "type": "pdf",
+    "bytes": 158791,
+    "status": "ok"
+  },
+  {
+    "exchange": "MIAX",
+    "url": "https://www.miaxglobal.com/sites/default/files/fee_schedule-files/MIAX_Pearl_Options_Fee_Schedule_07012026.pdf",
+    "file": "MIAX_Fee_Schedule.pdf",
+    "type": "pdf",
+    "bytes": 463671,
+    "status": "ok"
+  },
+  {
+    "exchange": "BOX",
+    "url": "https://boxexchange.com/assets/BOX-Fee-Schedule-as-of-July-2-2026.pdf",
+    "file": "BOX_Fee_Schedule.pdf",
+    "type": "pdf",
+    "bytes": 403516,
+    "status": "ok"
+  }
+]
