@@ -1,0 +1,27 @@
+{
+  "new_run": "2026-07-14",
+  "previous_run": "2026-07-12",
+  "changed": [
+    {
+      "exchange": "ISE",
+      "reason": "effective date changed",
+      "old_date": "2026-07-01",
+      "new_date": "2026-07-03",
+      "file": "ISE_Fee_Schedule.html"
+    }
+  ],
+  "needs_review": [
+    {
+      "exchange": "ARCA",
+      "reason": "could not extract effective date this run",
+      "old_date": "2026-07-01",
+      "file": null
+    },
+    {
+      "exchange": "AMEX",
+      "reason": "could not extract effective date this run",
+      "old_date": "2026-07-07",
+      "file": null
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 ---
 exchange: ISE
-effective_date: 2026-07-01
+effective_date: 2026-07-03
 source_url: https://listingcenter.nasdaq.com/rulebook/ise/rules/ISE%20Options%207
-fetched: 2026-07-12
+fetched: 2026-07-14
 ---
 
 # Nasdaq ISE — Fee Schedule
 
-*Effective 2026-07-01. Source: https://listingcenter.nasdaq.com/rulebook/ise/rules/ISE%20Options%207*
+*Effective 2026-07-03. Source: https://listingcenter.nasdaq.com/rulebook/ise/rules/ISE%20Options%207*
 
 Options 7 Pricing Schedule
 Section 1. General Provisions
@@ -378,7 +378,7 @@ The below tiered rebates will be paid, in addition to the Priority Customer Comp
 17. Members that execute more than 0.25% of Regular Order Non-Select Symbol Priority Customer Volume (excluding Crossing Orders and Responses to Crossing Orders) calculated as a percentage of Customer Total Consolidated Volume per day in a given month will be eligible to receive the Priority Customer Complex Order rebates in Select Symbols and Non-Select Symbols that apply to one tier higher than the tier for which they currently qualify, except Members that already qualify for the highest Priority Customer Complex Tier will instead receive an additional rebate of $0.01 per contract in Select Symbols and Non-Select Symbols.
 Adopted October 23, 2018 (SR-ISE-2018-89); amended April 1, 2019 (SR-ISE-2019-09); amended June 6, 2019
             (SR-ISE-2019-17); amended January 2, 2020 (SR-ISE-2020-01); amended February 3, 2020 (SR-ISE-2020-02);
-            amended March 2, 2020 (SR-ISE-2020-09); amended March 10, 2020 (SR-ISE-2020-12); amended July 1, 2020 (SR-ISE-2020-26); amended Nov. 2, 2020 (SR-ISE-2020-37); amended Nov. 13, 2020 (SR-ISE-2020-39); amended June 8, 2021 (SR-ISE-2021-13); amended Sep. 30, 2021 (SR-ISE-2021-21), operative Oct. 1, 2021; amended Aug. 1, 2022 (SR-ISE-2022-15); amended Aug. 9, 2022 (SR-ISE-2022-16); amended Dec. 2, 2022 (SR-ISE-2022-27), operative Dec. 1, 2022; amended Dec. 13, 2022 (SR-ISE-2022-29); amended Oct. 31, 2023 (SR-ISE-2023-25); amended Nov. 1, 2023 (SR-ISE-2023-26); amended Nov. 7, 2023 (SR-ISE-2023-27); amended Nov. 13, 2023 (SR-ISE-2023-28); amended Dec. 1, 2023 (SR-ISE-2023-35); amended Jan. 2, 2024 (SR-ISE-2024-01); amended Jan. 12, 2024 (SR-ISE-2024-04); amended Feb. 29, 2024 (SR-ISE-2024-08), operative Mar. 1, 2024; amended Mar. 8, 2024 (SR-ISE-2024-11); amended Feb. 6, 2025 (SR-ISE-2025-07), operative Mar. 8, 2025; amended Nov. 3, 2025 (SR-ISE-2025-33); amended Nov. 13, 2025 (SR-ISE-2025-36); amended Feb. 27, 2026 (SR-ISE-2026-06), operative Mar. 2, 2026; amended Mar. 3, 2026 (SR-ISE-2026-10); amended Feb. 6, 2025 (SR-ISE-2025-07), operative Mar. 12, 2026; amended Apr. 30, 2026 (SR-ISE-2026-23), operative May 1, 2026; amended May 12, 2026 (SR-ISE-2026-25); amended May 12, 2026 (SR-ISE-2026-28); amended Jun. 1, 2026 (SR-ISE-2026-33); amended Jun. 9, 2026 (SR-ISE-2026-37); amended Jul. 1, 2026 (SR-ISE-2026-39).
+            amended March 2, 2020 (SR-ISE-2020-09); amended March 10, 2020 (SR-ISE-2020-12); amended July 1, 2020 (SR-ISE-2020-26); amended Nov. 2, 2020 (SR-ISE-2020-37); amended Nov. 13, 2020 (SR-ISE-2020-39); amended June 8, 2021 (SR-ISE-2021-13); amended Sep. 30, 2021 (SR-ISE-2021-21), operative Oct. 1, 2021; amended Aug. 1, 2022 (SR-ISE-2022-15); amended Aug. 9, 2022 (SR-ISE-2022-16); amended Dec. 2, 2022 (SR-ISE-2022-27), operative Dec. 1, 2022; amended Dec. 13, 2022 (SR-ISE-2022-29); amended Oct. 31, 2023 (SR-ISE-2023-25); amended Nov. 1, 2023 (SR-ISE-2023-26); amended Nov. 7, 2023 (SR-ISE-2023-27); amended Nov. 13, 2023 (SR-ISE-2023-28); amended Dec. 1, 2023 (SR-ISE-2023-35); amended Jan. 2, 2024 (SR-ISE-2024-01); amended Jan. 12, 2024 (SR-ISE-2024-04); amended Feb. 29, 2024 (SR-ISE-2024-08), operative Mar. 1, 2024; amended Mar. 8, 2024 (SR-ISE-2024-11); amended Feb. 6, 2025 (SR-ISE-2025-07), operative Mar. 8, 2025; amended Nov. 3, 2025 (SR-ISE-2025-33); amended Nov. 13, 2025 (SR-ISE-2025-36); amended Feb. 27, 2026 (SR-ISE-2026-06), operative Mar. 2, 2026; amended Mar. 3, 2026 (SR-ISE-2026-10); amended Feb. 6, 2025 (SR-ISE-2025-07), operative Mar. 12, 2026; amended Apr. 30, 2026 (SR-ISE-2026-23), operative May 1, 2026; amended May 12, 2026 (SR-ISE-2026-25); amended May 12, 2026 (SR-ISE-2026-28); amended Jun. 1, 2026 (SR-ISE-2026-33); amended Jun. 9, 2026 (SR-ISE-2026-37); amended Jul. 1, 2026 (SR-ISE-2026-39); amended Jul. 10, 2026 (SR-ISE-2026-41).
 
 Section 5. Index Options Fees and
         Rebates
