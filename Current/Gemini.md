@@ -2,7 +2,7 @@
 exchange: Gemini
 effective_date: 2026-05-29
 source_url: https://listingcenter.nasdaq.com/rulebook/gemx/rules/GEMX%20Options%207
-fetched: 2026-07-14
+fetched: 2026-07-15
 ---
 
 # Nasdaq GEMX — Fee Schedule

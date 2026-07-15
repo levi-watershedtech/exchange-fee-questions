@@ -1,15 +1,15 @@
 ---
 exchange: MEMX
-effective_date: 2026-07-01
+effective_date: 2026-07-14
 source_url: https://info.memxtrading.com/us-options-trading-resources/us-options-fee-schedule/
-fetched: 2026-07-14
+fetched: 2026-07-15
 ---
 
 # MEMX Options — Fee Schedule
 
-*Effective 2026-07-01. Source: https://info.memxtrading.com/us-options-trading-resources/us-options-fee-schedule/*
+*Effective 2026-07-14. Source: https://info.memxtrading.com/us-options-trading-resources/us-options-fee-schedule/*
 
-#### (EFFECTIVE JULY 1, 2026)
+#### (EFFECTIVE JULY 14, 2026)
 
 ### **Transaction Fees**
 
@@ -58,7 +58,7 @@ The Routing Fee applies to orders routed to and executed on another exchange.
 
 Effective as of July 1, 2026, the ORF is $0.0200 per contract side.
 
-The per-contract Options Regulatory Fee (“ORF”) is assessed by MEMX Options to each Member on each side of a transaction for options transactions cleared by the Member that are cleared by the Options Clearing Corporation (“OCC”) in the “customer” range for executions that occur on MEMX Options. MEMX Options uses reports from OCC when assessing and collecting the ORF. The fee is collected by OCC on behalf of MEMX Options from the Member that was the clearing firm for the transaction or a non-Member that was the clearing firm, where a Member was the executing clearing firm for the transaction. The Exchange will notify Members of any change in the amount of the fee at least 30 calendar days prior to the effective date of the change.
+The Options Regulatory Fee (“ORF”) is assessed by MEMX Options to each Member on each side of a transaction for options transactions that are cleared by the Options Clearing Corporation (“OCC”) in the “customer” range for executions that occur on MEMX Options. MEMX Options uses reports from OCC when assessing and collecting the ORF. The fee is collected by OCC on behalf of MEMX Options from the Member that was the clearing firm for the transaction or a non-Member that was the clearing firm, where a Member was the executing firm for the transaction. The Exchange will notify Members of any change in the amount of the fee at least 30 calendar days prior to the effective date of the change.
 
 ### **Market Data Fees**
 

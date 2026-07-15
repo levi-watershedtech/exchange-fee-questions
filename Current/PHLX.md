@@ -2,7 +2,7 @@
 exchange: PHLX
 effective_date: 2026-07-03
 source_url: https://listingcenter.nasdaq.com/rulebook/phlx/rules/Phlx%20Options%207
-fetched: 2026-07-14
+fetched: 2026-07-15
 ---
 
 # Nasdaq PHLX — Fee Schedule
