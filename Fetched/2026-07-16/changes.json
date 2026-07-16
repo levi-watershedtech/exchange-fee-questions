@@ -1,0 +1,28 @@
+{
+  "new_run": "2026-07-16",
+  "previous_run": "2026-07-15",
+  "changed": [
+    {
+      "exchange": "CBOE",
+      "reason": "effective date changed",
+      "old_date": "2026-07-01",
+      "new_date": "2026-07-15",
+      "file": "CBOE_Fee_Schedule.pdf"
+    },
+    {
+      "exchange": "ARCA",
+      "reason": "effective date changed",
+      "old_date": "2026-07-14",
+      "new_date": "2026-07-15",
+      "file": "ARCA_Fee_Schedule.pdf"
+    },
+    {
+      "exchange": "AMEX",
+      "reason": "effective date changed",
+      "old_date": "2026-07-14",
+      "new_date": "2026-07-15",
+      "file": "AMEX_Fee_Schedule.pdf"
+    }
+  ],
+  "needs_review": []
+}
