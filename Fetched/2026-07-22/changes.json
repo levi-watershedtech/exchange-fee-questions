@@ -1,0 +1,14 @@
+{
+  "new_run": "2026-07-22",
+  "previous_run": "2026-07-21",
+  "changed": [
+    {
+      "exchange": "CBOE",
+      "reason": "effective date changed",
+      "old_date": "2026-07-15",
+      "new_date": "2026-07-20",
+      "file": "CBOE_Fee_Schedule.pdf"
+    }
+  ],
+  "needs_review": []
+}

@@ -2,7 +2,7 @@
 exchange: Mercury
 effective_date: 2026-06-04
 source_url: https://listingcenter.nasdaq.com/rulebook/mrx/rules/MRX%20Options%207
-fetched: 2026-07-21
+fetched: 2026-07-22
 ---
 
 # Nasdaq MRX (Mercury) — Fee Schedule
