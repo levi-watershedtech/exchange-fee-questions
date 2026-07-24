@@ -1,13 +1,13 @@
 ---
 exchange: NOM
-effective_date: 2026-06-08
+effective_date: 2026-07-01
 source_url: https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/Nasdaq%20Options%207
-fetched: 2026-07-22
+fetched: 2026-07-24
 ---
 
 # Nasdaq Options Market (NOM) — Fee Schedule
 
-*Effective 2026-06-08. Source: https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/Nasdaq%20Options%207*
+*Effective 2026-07-01. Source: https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/Nasdaq%20Options%207*
 
 Options 7 Pricing Schedule
 
@@ -20,8 +20,10 @@ The Nasdaq Options Market Participants may be subject to the Charges for Members
 The term "Broker-Dealer" or ("B") applies to any transaction which is not subject to any of the other transaction fees applicable within a particular category.
 The term "Common Ownership" shall mean Participants under 75% common ownership or control. Common Ownership shall apply to all pricing in Options 7, Section 2 for which a volume threshold or volume percentage is required to obtain the pricing.
 The term "Customer" or ("C") applies to any transaction that is identified by a Participant for clearing in the Customer range at The Options Clearing Corporation ("OCC") which is not for the account of broker or dealer or for the account of a "Professional" (as that term is defined in Options 1, Section 1(a)(47)).
+An “ Exposed Order ” is an order that is broadcast via an order exposure alert as described within Options 5, Section 4 (Order Routing).  Unless otherwise noted in Options 7, Section 2 pricing, Exposed Orders will be assessed the applicable “Taker” Fee and any order or quote that executes against an Exposed Order during a Route Timer will be paid/assessed the applicable “Maker” Rebate/Fee.
 The term "Firm" or ("F") applies to any transaction that is identified by a Participant for clearing in the Firm range at OCC.
 The term "Joint Back Office" or "JBO" applies to any transaction that is identified by a Participant for clearing in the Firm range at OCC and is identified with an origin code as a JBO. A JBO will be priced the same as a Broker-Dealer as of September 1, 2014. A JBO participant is a Participant that maintains a JBO arrangement with a clearing broker-dealer ("JBO Broker") subject to the requirements of Regulation T Section 220.7 of the Federal Reserve System as further discussed in Options 6C, Section 1.
+The term “ Lead Market Maker ” or (“LMM”) applies to a registered NOM Market Maker that is approved pursuant to Options 2, Section 3 to be the LMM in an options class (options classes).
 The term "NOM Market Maker" or ("M") is a Participant that has registered as a Market Maker on NOM pursuant to Options 2, Section 1, and must also remain in good standing pursuant to Options 2, Section 9. In order to receive NOM Market Maker pricing in all securities, the Participant must be registered as a NOM Market Maker in at least one security.
 The term "Non-Customer" applies to transactions for the accounts of NOM Market Makers, Non-NOM Market Makers, Firms, Professionals, Broker-Dealers and JBOs.
 The term "Non-NOM Market Maker" or ("O") is a registered market maker on another options exchange that is not a NOM Market Maker. A Non-NOM Market Maker must append the proper Non-NOM Market Maker designation to orders routed to NOM.
@@ -93,7 +95,7 @@ Each NOM member, and all applicants for registration, shall be required to provi
             amount in writing to the Exchange's designated staff by the 15th of the month, or the following business day
             if the 15th is not a business day, and the amount in dispute is at least $10,000 or greater.
 Adopted Jan. 6, 2012 (SR-NASDAQ-2012-006); amended Oct. 18, 2017 (SR-NASDAQ-2017-111); amended Nov. 19, 2018
-            (SR-NASDAQ-2018-098); amended Aug. 3, 2020 (SR-NASDAQ-2020-047); amended Aug. 13, 2020 (SR-NASDAQ-2020-052); amended Apr. 1, 2021 (SR-NASDAQ-2021-016); amended Apr. 9, 2021 (SR-NASDAQ-2021-019); amended Apr. 13, 2021 (SR-NASDAQ-2021-021); amended Nov. 30, 2021 (SR-NASDAQ-2021-095), operative Dec. 1, 2021; amended January 12, 2022 (SR-NASDAQ-2022-003), operative January 31, 2022; amended May 6, 2026 (SR-NASDAQ-2026-039), operative Jul. 27, 2026.
+            (SR-NASDAQ-2018-098); amended Aug. 3, 2020 (SR-NASDAQ-2020-047); amended Aug. 13, 2020 (SR-NASDAQ-2020-052); amended Apr. 1, 2021 (SR-NASDAQ-2021-016); amended Apr. 9, 2021 (SR-NASDAQ-2021-019); amended Apr. 13, 2021 (SR-NASDAQ-2021-021); amended Nov. 30, 2021 (SR-NASDAQ-2021-095), operative Dec. 1, 2021; amended January 12, 2022 (SR-NASDAQ-2022-003), operative January 31, 2022; amended May 6, 2026 (SR-NASDAQ-2026-039), operative Jul. 27, 2026; amended Apr. 30, 2026 (SR-NASDAQ-2026-043), operative Jul. 27, 2026.
 
 Section 2 Nasdaq
         Options Market - Fees and Rebates

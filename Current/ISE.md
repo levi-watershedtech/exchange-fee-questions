@@ -2,7 +2,7 @@
 exchange: ISE
 effective_date: 2026-07-03
 source_url: https://listingcenter.nasdaq.com/rulebook/ise/rules/ISE%20Options%207
-fetched: 2026-07-22
+fetched: 2026-07-24
 ---
 
 # Nasdaq ISE — Fee Schedule
