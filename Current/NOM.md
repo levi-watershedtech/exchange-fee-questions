@@ -1,13 +1,13 @@
 ---
 exchange: NOM
-effective_date: 2026-07-01
+effective_date: 2026-07-24
 source_url: https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/Nasdaq%20Options%207
-fetched: 2026-07-25
+fetched: 2026-07-27
 ---
 
 # Nasdaq Options Market (NOM) — Fee Schedule
 
-*Effective 2026-07-01. Source: https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/Nasdaq%20Options%207*
+*Effective 2026-07-24. Source: https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/Nasdaq%20Options%207*
 
 Options 7 Pricing Schedule
 
@@ -389,9 +389,9 @@ $750 per port, per month, per account number
             pursuant to Nasdaq Rules at Options 7, Section 4. The below port fees do not apply if the subscription is
             delivered via multicast. These ports are available to non-NOM Participants and NOM Participants.
 
-| (1) ITTO Port Fee | $650 per port, per month |
+| (1) Depth of Market Feed Port Fee | $650 per port, per month |
 | --- | --- |
-| (2) BONO Port Fee | $650 per port, per month |
+| (2) Top of Market Feed Port Fee | $650 per port, per month |
 
 (iv) Other ports:
 
@@ -418,23 +418,21 @@ Adopted Jan. 6, 2012 (SR-NASDAQ-2012-006); amended Apr. 18, 2012 (SR-NASDAQ-2012
 Section 4 Nasdaq
         Options Market Data Distributor Fees
 Changes have been approved that are not yet operative. For more information see the attached document .
-(a) The charges to be paid by recipients of BONO SM and ITTO options
-            data feeds as well as NOTO and Hardware-Based delivery of NOM Depth data shall be:
+(a) The charges to be paid by recipients of Top of Market Feed and Depth of Market Feed as well as NOTO and Hardware-Based delivery of NOM Depth data shall be:
 
 |  | Monthly Internal Distributor Fee | Monthly External Distributor Fee |
 | --- | --- | --- |
-| BONO SM | $1,566 (op. 1/1/25); $1,618 (op. 1/1/26); $1,648 (op. 1/1/27)/firm | $$2,089 (op. 1/1/25); $2,158 (op. 1/1/26); $2,197 (op. 1/1/27)/firm |
-| ITTO | $1,566 (op. 1/1/25); $1,618 (op. 1/1/26); $1,648 (op. 1/1/27)/firm | $2,089 (op. 1/1/25); $2,158 (op. 1/1/26); $2,197 (op. 1/1/27)/firm |
+| Top of Market Feed | $1,566 (op. 1/1/25); $1,618 (op. 1/1/26); $1,648 (op. 1/1/27)/firm | $$2,089 (op. 1/1/25); $2,158 (op. 1/1/26); $2,197 (op. 1/1/27)/firm |
+| Depth of Market Feed | $1,566 (op. 1/1/25); $1,618 (op. 1/1/26); $1,648 (op. 1/1/27)/firm | $2,089 (op. 1/1/25); $2,158 (op. 1/1/26); $2,197 (op. 1/1/27)/firm |
 
 Non-Display Enterprise License Fee
-A $10,530 (op. 1/1/25); $10,942 (op. 1/1/26); $11,177 (op. 1/1/27) per month enterprise license fee permits distribution of BONO SM and ITTO as provided in Section 4(c). This fee is in addition to the Monthly Internal and
+A $10,530 (op. 1/1/25); $10,942 (op. 1/1/26); $11,177 (op. 1/1/27) per month enterprise license fee permits distribution of Top of Market Feed and Depth of Market Feed as provided in Section 4(c). This fee is in addition to the Monthly Internal and
             External Distributor Fees set forth above.
-One distributor fee allows access to either the BONO SM or the ITTO data
-            feed.
+One distributor fee allows access to either the Top of Market Feed or the Depth of Market Feed.
 
 |  | Monthly Internal Per User Fee | Monthly External Per User Fee |
 | --- | --- | --- |
-| BONO SM and ITTO | $42.10 (op. 1/1/25); $43.75 (op. 1/1/26); $44.70 (op. 1/1/27)/professional user | $42.10 (op. 1/1/25); $43.75 (op. 1/1/26); $44.70 (op. 1/1/27)/professional user $1/non-professional user |
+| Top of Market Feed and Depth of Market Feed | $42.10 (op. 1/1/25); $43.75 (op. 1/1/26); $44.70 (op. 1/1/27)/professional user | $42.10 (op. 1/1/25); $43.75 (op. 1/1/26); $44.70 (op. 1/1/27)/professional user $1/non-professional user |
 |  | Monthly End of Day Product Subscriber | Monthly Intra-Day Product Subscriber |
 | Nasdaq Options Trade Outline ("NOTO") | $575 | $2,000 |
 
@@ -470,16 +468,16 @@ Hardware-Based Delivery of NOM Depth data - the charges to be paid by Distributo
             distributes the data either internally (within that entity) or externally (outside that entity). All
             distributors shall execute a Nasdaq distributor agreement. Nasdaq itself is a vendor of its data feed(s) and
             has executed a Nasdaq distributor agreement and pays the distributor charge.
-(c) An "enterprise license" entitles a distributor to provide BONO SM or
-            ITTO market data pursuant to this section to an unlimited number of non-display devices within the firm
+(c) An "enterprise license" entitles a distributor to provide Top of Market Feed or
+            Depth of Market Feed market data pursuant to this section to an unlimited number of non-display devices within the firm
             without any per user charge.
-(d) Best of Nasdaq Options ("BONO SM ") is a data feed that provides The
+(d) Top of Market Feed is a data feed that provides The
             Nasdaq Options Market ("NOM") Best Bid and Offer and last sale information for trades executed on NOM.
-(e) Nasdaq ITCH to Trade Options ("ITTO") is a data feed that provides quotation
+(e) Depth of Market Feed is a data feed that provides quotation
             information for individual orders on the NOM book, last sale information for trades executed on NOM, and
             Order Imbalance Information as set forth in NOM Rules Options 3, Section 23(a)(1).
 (1) "Hardware-Based Delivery" means that a distributor is processing data sourced
-            from a Nasdaq hardware coded market data format such as NOM ITTO FPGA.
+            from a Nasdaq hardware coded market data format such as NOM Depth of Market Feed FPGA.
 (2) Distributors of NOM Depth data also are subject to the market data fees as set
             forth in this section.
 (f) The term "non-professional" shall have the same meaning as in Nasdaq Equity 7,
