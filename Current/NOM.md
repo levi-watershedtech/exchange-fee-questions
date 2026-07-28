@@ -2,7 +2,7 @@
 exchange: NOM
 effective_date: 2026-07-24
 source_url: https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/Nasdaq%20Options%207
-fetched: 2026-07-27
+fetched: 2026-07-28
 ---
 
 # Nasdaq Options Market (NOM) — Fee Schedule
