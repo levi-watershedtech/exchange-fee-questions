@@ -1,13 +1,13 @@
 ---
 exchange: NOM
-effective_date: 2026-07-24
+effective_date: 2026-07-27
 source_url: https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/Nasdaq%20Options%207
-fetched: 2026-07-28
+fetched: 2026-07-29
 ---
 
 # Nasdaq Options Market (NOM) — Fee Schedule
 
-*Effective 2026-07-24. Source: https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/Nasdaq%20Options%207*
+*Effective 2026-07-27. Source: https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/Nasdaq%20Options%207*
 
 Options 7 Pricing Schedule
 
@@ -19,7 +19,7 @@ The Nasdaq Options Market Participants may be subject to the Charges for Members
 (a) For purposes of assessing fees and paying rebates, the following references should serve as guidance.
 The term "Broker-Dealer" or ("B") applies to any transaction which is not subject to any of the other transaction fees applicable within a particular category.
 The term "Common Ownership" shall mean Participants under 75% common ownership or control. Common Ownership shall apply to all pricing in Options 7, Section 2 for which a volume threshold or volume percentage is required to obtain the pricing.
-The term "Customer" or ("C") applies to any transaction that is identified by a Participant for clearing in the Customer range at The Options Clearing Corporation ("OCC") which is not for the account of broker or dealer or for the account of a "Professional" (as that term is defined in Options 1, Section 1(a)(47)).
+The term "Customer" or ("C") applies to any transaction that is identified by a Participant for clearing in the Customer range at The Options Clearing Corporation ("OCC") which is not for the account of broker or dealer or for the account of a "Professional" (as that term is defined in Options 1, Section 1(a)(48)).
 An “ Exposed Order ” is an order that is broadcast via an order exposure alert as described within Options 5, Section 4 (Order Routing).  Unless otherwise noted in Options 7, Section 2 pricing, Exposed Orders will be assessed the applicable “Taker” Fee and any order or quote that executes against an Exposed Order during a Route Timer will be paid/assessed the applicable “Maker” Rebate/Fee.
 The term "Firm" or ("F") applies to any transaction that is identified by a Participant for clearing in the Firm range at OCC.
 The term "Joint Back Office" or "JBO" applies to any transaction that is identified by a Participant for clearing in the Firm range at OCC and is identified with an origin code as a JBO. A JBO will be priced the same as a Broker-Dealer as of September 1, 2014. A JBO participant is a Participant that maintains a JBO arrangement with a clearing broker-dealer ("JBO Broker") subject to the requirements of Regulation T Section 220.7 of the Federal Reserve System as further discussed in Options 6C, Section 1.
@@ -27,7 +27,7 @@ The term “ Lead Market Maker ” or (“LMM”) applies to a registered NOM Ma
 The term "NOM Market Maker" or ("M") is a Participant that has registered as a Market Maker on NOM pursuant to Options 2, Section 1, and must also remain in good standing pursuant to Options 2, Section 9. In order to receive NOM Market Maker pricing in all securities, the Participant must be registered as a NOM Market Maker in at least one security.
 The term "Non-Customer" applies to transactions for the accounts of NOM Market Makers, Non-NOM Market Makers, Firms, Professionals, Broker-Dealers and JBOs.
 The term "Non-NOM Market Maker" or ("O") is a registered market maker on another options exchange that is not a NOM Market Maker. A Non-NOM Market Maker must append the proper Non-NOM Market Maker designation to orders routed to NOM.
-The term "Professional" or ("P") means any person or entity that (i) is not a broker or dealer in securities, and (ii) places more than 390 orders in listed options per day on average during a calendar month for its own beneficial account(s) pursuant to Options 1, Section 1(a)(47). All Professional orders shall be appropriately marked by Participants.
+The term "Professional" or ("P") means any person or entity that (i) is not a broker or dealer in securities, and (ii) places more than 390 orders in listed options per day on average during a calendar month for its own beneficial account(s) pursuant to Options 1, Section 1(a)(48). All Professional orders shall be appropriately marked by Participants.
 (b) For Purposes of Common Ownership Aggregation of Activity of Affiliated Members and Member Organizations
 (1) For purposes of applying any options transaction fee or rebate where the fee
             assessed, or rebate provided by NOM depends upon the volume of an Options Participant's activity, an Options
@@ -374,7 +374,7 @@ SQF Port and SQF Purge Fees will be discounted, on a monthly basis, by the perce
 | 4 | greater than or equal to 0.40% | 50% |
 
 For example, a Market Maker that executed 3,000,000 in Penny Volume and 200,000 in Non-Penny Volume in a given month on the Exchange, where the Total National Volume was 1,000,000,000, would qualify for a discount of 50% on their SQF Port and SQF Purge Port fees ((200,000 x 5= 1,000,000) + 3,000,000 = 4,000,000 which is 0.40% of 1,000,000,000).
-(4) QUO Port Fee
+(4) OTTO Port Fee
 $750 per port, per month, per account number
 
 (ii) The following order and execution information is available to Participants.
@@ -382,8 +382,6 @@ $750 per port, per month, per account number
 | (1) CTI Port Fee | $650 per port, per month |
 | --- | --- |
 | (2) FIX DROP Port Fee | $650 per port, per month |
-| (3) TradeInfo NOM Interface | $95, per user, per month (Assessed only to Participant not subscribing to the Nasdaq Workstation) |
-| (4) QUO DROP Port Fee | $650 per port, per month |
 
 (iii) The following data port fees apply in connection with data subscriptions
             pursuant to Nasdaq Rules at Options 7, Section 4. The below port fees do not apply if the subscription is

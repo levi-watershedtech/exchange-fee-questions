@@ -1,0 +1,28 @@
+{
+  "new_run": "2026-07-29",
+  "previous_run": "2026-07-28",
+  "changed": [
+    {
+      "exchange": "NOM",
+      "reason": "effective date changed",
+      "old_date": "2026-07-24",
+      "new_date": "2026-07-27",
+      "file": "NOM_Fee_Schedule.html"
+    },
+    {
+      "exchange": "ARCA",
+      "reason": "effective date changed",
+      "old_date": null,
+      "new_date": "2026-07-28",
+      "file": "ARCA_Fee_Schedule.pdf"
+    },
+    {
+      "exchange": "AMEX",
+      "reason": "effective date changed",
+      "old_date": null,
+      "new_date": "2026-07-28",
+      "file": "AMEX_Fee_Schedule.pdf"
+    }
+  ],
+  "needs_review": []
+}
