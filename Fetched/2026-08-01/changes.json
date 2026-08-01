@@ -1,0 +1,72 @@
+{
+  "new_run": "2026-08-01",
+  "previous_run": "2026-07-31",
+  "changed": [
+    {
+      "exchange": "Pearl",
+      "reason": "effective date changed",
+      "old_date": "2026-07-01",
+      "new_date": "2026-08-01",
+      "file": "Pearl_Fee_Schedule.pdf"
+    },
+    {
+      "exchange": "Sapphire",
+      "reason": "effective date changed",
+      "old_date": "2026-07-01",
+      "new_date": "2026-08-01",
+      "file": "Sapphire_Fee_Schedule.pdf"
+    },
+    {
+      "exchange": "Emerald",
+      "reason": "effective date changed",
+      "old_date": "2026-07-01",
+      "new_date": "2026-08-01",
+      "file": "Emerald_Fee_Schedule.pdf"
+    },
+    {
+      "exchange": "MIAX",
+      "reason": "effective date changed",
+      "old_date": "2026-07-01",
+      "new_date": "2026-08-01",
+      "file": "MIAX_Fee_Schedule.pdf"
+    }
+  ],
+  "needs_review": [
+    {
+      "exchange": "NOM",
+      "reason": "could not extract effective date this run",
+      "old_date": null,
+      "file": null
+    },
+    {
+      "exchange": "NTX",
+      "reason": "could not extract effective date this run",
+      "old_date": null,
+      "file": null
+    },
+    {
+      "exchange": "Gemini",
+      "reason": "could not extract effective date this run",
+      "old_date": null,
+      "file": null
+    },
+    {
+      "exchange": "ISE",
+      "reason": "could not extract effective date this run",
+      "old_date": null,
+      "file": null
+    },
+    {
+      "exchange": "PHLX",
+      "reason": "could not extract effective date this run",
+      "old_date": null,
+      "file": null
+    },
+    {
+      "exchange": "Mercury",
+      "reason": "could not extract effective date this run",
+      "old_date": null,
+      "file": null
+    }
+  ]
+}
