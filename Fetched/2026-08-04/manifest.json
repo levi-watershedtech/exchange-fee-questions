@@ -1,0 +1,146 @@
+[
+  {
+    "exchange": "BZX",
+    "url": "https://www.cboe.com/us/options/membership/fee_schedule/bzx/",
+    "file": "BZX_Fee_Schedule.html",
+    "type": "html",
+    "bytes": 686904,
+    "status": "ok"
+  },
+  {
+    "exchange": "C2",
+    "url": "https://www.cboe.com/us/options/membership/fee_schedule/ctwo/",
+    "file": "C2_Fee_Schedule.html",
+    "type": "html",
+    "bytes": 684156,
+    "status": "ok"
+  },
+  {
+    "exchange": "EDGX",
+    "url": "https://www.cboe.com/us/options/membership/fee_schedule/edgx/",
+    "file": "EDGX_Fee_Schedule.html",
+    "type": "html",
+    "bytes": 702251,
+    "status": "ok"
+  },
+  {
+    "exchange": "CBOE",
+    "url": "https://cdn.cboe.com/resources/membership/Cboe_FeeSchedule.pdf",
+    "file": "CBOE_Fee_Schedule.pdf",
+    "type": "pdf",
+    "bytes": 1057855,
+    "status": "ok"
+  },
+  {
+    "exchange": "MEMX",
+    "url": "https://info.memxtrading.com/us-options-trading-resources/us-options-fee-schedule/",
+    "file": "MEMX_Fee_Schedule.html",
+    "type": "html",
+    "bytes": 104168,
+    "status": "ok"
+  },
+  {
+    "exchange": "NOM",
+    "url": "https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/Nasdaq%20Options%207",
+    "file": null,
+    "type": "html",
+    "bytes": 0,
+    "status": "error: 403 Client Error: Forbidden for url: https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/Nasdaq%20Options%207"
+  },
+  {
+    "exchange": "NTX",
+    "url": "https://listingcenter.nasdaq.com/rulebook/nasdaqtx/rules/NTX%20Options%207",
+    "file": null,
+    "type": "html",
+    "bytes": 0,
+    "status": "error: 403 Client Error: Forbidden for url: https://listingcenter.nasdaq.com/rulebook/nasdaqtx/rules/NTX%20Options%207"
+  },
+  {
+    "exchange": "Gemini",
+    "url": "https://listingcenter.nasdaq.com/rulebook/gemx/rules/GEMX%20Options%207",
+    "file": null,
+    "type": "html",
+    "bytes": 0,
+    "status": "error: 403 Client Error: Forbidden for url: https://listingcenter.nasdaq.com/rulebook/gemx/rules/GEMX%20Options%207"
+  },
+  {
+    "exchange": "ISE",
+    "url": "https://listingcenter.nasdaq.com/rulebook/ise/rules/ISE%20Options%207",
+    "file": null,
+    "type": "html",
+    "bytes": 0,
+    "status": "error: 403 Client Error: Forbidden for url: https://listingcenter.nasdaq.com/rulebook/ise/rules/ISE%20Options%207"
+  },
+  {
+    "exchange": "PHLX",
+    "url": "https://listingcenter.nasdaq.com/rulebook/phlx/rules/Phlx%20Options%207",
+    "file": null,
+    "type": "html",
+    "bytes": 0,
+    "status": "error: 403 Client Error: Forbidden for url: https://listingcenter.nasdaq.com/rulebook/phlx/rules/Phlx%20Options%207"
+  },
+  {
+    "exchange": "Mercury",
+    "url": "https://listingcenter.nasdaq.com/rulebook/mrx/rules/MRX%20Options%207",
+    "file": null,
+    "type": "html",
+    "bytes": 0,
+    "status": "error: 403 Client Error: Forbidden for url: https://listingcenter.nasdaq.com/rulebook/mrx/rules/MRX%20Options%207"
+  },
+  {
+    "exchange": "ARCA",
+    "url": "https://www.nyse.com/publicdocs/nyse/markets/arca-options/NYSE_Arca_Options_Fee_Schedule.pdf",
+    "file": "ARCA_Fee_Schedule.pdf",
+    "type": "pdf",
+    "bytes": 317821,
+    "status": "ok"
+  },
+  {
+    "exchange": "AMEX",
+    "url": "https://www.nyse.com/publicdocs/nyse/markets/american-options/NYSE_American_Options_Fee_Schedule.pdf",
+    "file": "AMEX_Fee_Schedule.pdf",
+    "type": "pdf",
+    "bytes": 136881,
+    "status": "ok"
+  },
+  {
+    "exchange": "Pearl",
+    "url": "https://www.miaxglobal.com/sites/default/files/fee_schedule-files/MIAX_Pearl_Options_Highlighted_Fee_Changes_08012026.pdf",
+    "file": "Pearl_Fee_Schedule.pdf",
+    "type": "pdf",
+    "bytes": 219324,
+    "status": "ok"
+  },
+  {
+    "exchange": "Sapphire",
+    "url": "https://www.miaxglobal.com/sites/default/files/fee_schedule-files/MIAX_Sapphire_Highlight_of_Fee_Changes_08012026_b.pdf",
+    "file": "Sapphire_Fee_Schedule.pdf",
+    "type": "pdf",
+    "bytes": 277580,
+    "status": "ok"
+  },
+  {
+    "exchange": "Emerald",
+    "url": "https://www.miaxglobal.com/sites/default/files/fee_schedule-files/MIAX_Emerald_Highlighted_Fee_Changes_08012026.pdf",
+    "file": "Emerald_Fee_Schedule.pdf",
+    "type": "pdf",
+    "bytes": 90724,
+    "status": "ok"
+  },
+  {
+    "exchange": "MIAX",
+    "url": "https://www.miaxglobal.com/sites/default/files/fee_schedule-files/MIAX_Pearl_Options_Fee_Schedule_08012026.pdf",
+    "file": "MIAX_Fee_Schedule.pdf",
+    "type": "pdf",
+    "bytes": 450745,
+    "status": "ok"
+  },
+  {
+    "exchange": "BOX",
+    "url": "https://boxexchange.com/assets/BOX-Fee-Schedule-as-of-July-2-2026.pdf",
+    "file": "BOX_Fee_Schedule.pdf",
+    "type": "pdf",
+    "bytes": 403516,
+    "status": "ok"
+  }
+]
