@@ -10,6 +10,48 @@
       "file": "CBOE_Fee_Schedule.pdf"
     },
     {
+      "exchange": "NOM",
+      "reason": "effective date changed",
+      "old_date": "2026-07-27",
+      "new_date": "2026-07-31",
+      "file": "NOM_Fee_Schedule.pdf"
+    },
+    {
+      "exchange": "NTX",
+      "reason": "effective date changed",
+      "old_date": "2026-04-14",
+      "new_date": "2026-06-05",
+      "file": "NTX_Fee_Schedule.pdf"
+    },
+    {
+      "exchange": "Gemini",
+      "reason": "effective date changed",
+      "old_date": "2026-05-29",
+      "new_date": "2026-07-31",
+      "file": "Gemini_Fee_Schedule.pdf"
+    },
+    {
+      "exchange": "ISE",
+      "reason": "effective date changed",
+      "old_date": "2026-07-03",
+      "new_date": "2026-08-03",
+      "file": "ISE_Fee_Schedule.pdf"
+    },
+    {
+      "exchange": "PHLX",
+      "reason": "effective date changed",
+      "old_date": "2026-07-03",
+      "new_date": "2026-07-31",
+      "file": "PHLX_Fee_Schedule.pdf"
+    },
+    {
+      "exchange": "Mercury",
+      "reason": "effective date changed",
+      "old_date": "2026-06-04",
+      "new_date": "2026-06-05",
+      "file": "Mercury_Fee_Schedule.pdf"
+    },
+    {
       "exchange": "ARCA",
       "reason": "effective date changed",
       "old_date": "2026-07-29",
@@ -24,42 +66,5 @@
       "file": "AMEX_Fee_Schedule.pdf"
     }
   ],
-  "needs_review": [
-    {
-      "exchange": "NOM",
-      "reason": "could not extract effective date this run",
-      "old_date": null,
-      "file": null
-    },
-    {
-      "exchange": "NTX",
-      "reason": "could not extract effective date this run",
-      "old_date": null,
-      "file": null
-    },
-    {
-      "exchange": "Gemini",
-      "reason": "could not extract effective date this run",
-      "old_date": null,
-      "file": null
-    },
-    {
-      "exchange": "ISE",
-      "reason": "could not extract effective date this run",
-      "old_date": null,
-      "file": null
-    },
-    {
-      "exchange": "PHLX",
-      "reason": "could not extract effective date this run",
-      "old_date": null,
-      "file": null
-    },
-    {
-      "exchange": "Mercury",
-      "reason": "could not extract effective date this run",
-      "old_date": null,
-      "file": null
-    }
-  ]
+  "needs_review": []
 }

@@ -12,7 +12,9 @@ Each exchange advertises its effective date in a different place:
   Cboe HTML  (BZX, C2, EDGX) ... a top-of-page "Effective <Month D, YYYY>" line
   Cboe PDF   (CBOE) ........... a "Fees Schedule - <Month D, YYYY>" header
   MEMX HTML  (MEMX) ........... a "(EFFECTIVE <MONTH D, YYYY>)" banner
-  Nasdaq     (NOM, NTX, ...) .. the newest date in the rulebook "Versions:" menu
+  Nasdaq     (NOM, NTX, ...) .. PDF: newest "Adopted/amended <date>" in the
+                                amendment history; HTML (pre-2026-08 runs):
+                                the newest date in the "Versions:" menu
   NYSE PDF   (ARCA) ........... "Effective Date: <Month D, YYYY>"
              (AMEX) ........... "Effective as of <Month D, YYYY>"
   MIAX PDFs  (MIAX, Pearl, ...) the MMDDYYYY stamp in the PDF's URL/filename
@@ -147,6 +149,34 @@ def _extract_nasdaq_html(path: Path, url: str) -> str | None:
     return m.group(1) if m else None
 
 
+# "Adopted October 23, 2018" / "amended Apr. 9, 2026" — the per-section
+# amendment history the PDF print export carries instead of the HTML
+# viewer's Versions menu. Each rulebook version IS an amendment, so the
+# newest such date is the same signal the dropdown gave.
+_RE_ADOPTED_AMENDED = re.compile(
+    r"(?:adopted|amended)\s+(" + _RE_MONTH_DAY_YEAR.pattern + r")",
+    re.IGNORECASE)
+
+
+def _max_adopted_amended(text: str) -> str | None:
+    """Raw text of the newest 'Adopted/amended <date>' in `text`."""
+    best_iso, best_raw = None, None
+    for m in _RE_ADOPTED_AMENDED.finditer(text):
+        iso = normalize_date(m.group(1))
+        if iso and (best_iso is None or iso > best_iso):
+            best_iso, best_raw = iso, m.group(1)
+    return best_raw
+
+
+def _extract_nasdaq(path: Path, url: str) -> str | None:
+    """Nasdaq rulebook: PDF print export since 2026-08-04 (the HTML viewer
+    is Akamai-blocked — see fetch_fee_schedules.py); the HTML Versions-menu
+    path is kept so --no-fetch runs over older downloads still resolve."""
+    if path.suffix.lower() == ".pdf":
+        return _max_adopted_amended(_pdf_text(path, pages=10_000))
+    return _extract_nasdaq_html(path, url)
+
+
 def _extract_arca_pdf(path: Path, url: str) -> str | None:
     m = re.search(r"Effective\s+Date:?\s*(" + _RE_MONTH_DAY_YEAR.pattern + r")",
                   _pdf_text(path, pages=1), re.IGNORECASE)
@@ -178,12 +208,12 @@ EXTRACTORS = {
     "EDGX":    (_extract_cboe_html,  "Cboe HTML 'Effective' line"),
     "CBOE":    (_extract_cboe_pdf,   "Cboe PDF 'Fees Schedule -' header"),
     "MEMX":    (_extract_memx_html,  "MEMX HTML '(EFFECTIVE ...)' banner"),
-    "NOM":     (_extract_nasdaq_html, "Nasdaq rulebook Versions menu"),
-    "NTX":     (_extract_nasdaq_html, "Nasdaq rulebook Versions menu"),
-    "Gemini":  (_extract_nasdaq_html, "Nasdaq rulebook Versions menu"),
-    "ISE":     (_extract_nasdaq_html, "Nasdaq rulebook Versions menu"),
-    "PHLX":    (_extract_nasdaq_html, "Nasdaq rulebook Versions menu"),
-    "Mercury": (_extract_nasdaq_html, "Nasdaq rulebook Versions menu"),
+    "NOM":     (_extract_nasdaq, "Nasdaq rulebook amendment history (PDF) / Versions menu (HTML)"),
+    "NTX":     (_extract_nasdaq, "Nasdaq rulebook amendment history (PDF) / Versions menu (HTML)"),
+    "Gemini":  (_extract_nasdaq, "Nasdaq rulebook amendment history (PDF) / Versions menu (HTML)"),
+    "ISE":     (_extract_nasdaq, "Nasdaq rulebook amendment history (PDF) / Versions menu (HTML)"),
+    "PHLX":    (_extract_nasdaq, "Nasdaq rulebook amendment history (PDF) / Versions menu (HTML)"),
+    "Mercury": (_extract_nasdaq, "Nasdaq rulebook amendment history (PDF) / Versions menu (HTML)"),
     "ARCA":    (_extract_arca_pdf,   "NYSE Arca PDF 'Effective Date:'"),
     "AMEX":    (_extract_amex_pdf,   "NYSE American PDF 'Effective as of'"),
     "MIAX":    (_extract_from_url,   "MIAX URL date stamp"),

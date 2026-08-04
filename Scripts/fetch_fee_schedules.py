@@ -24,15 +24,13 @@ import time
 from datetime import date
 from pathlib import Path
 
-import requests
+# curl_cffi impersonates a real Chrome client all the way down to the TLS
+# handshake. A plain requests UA string stopped being enough in July 2026:
+# nyse.com (Akamai) started 403'ing clients whose TLS fingerprint doesn't
+# match the browser their User-Agent claims to be.
+from curl_cffi import requests
 
-# Pretend to be a normal Chrome browser so the sites don't block us.
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
-    )
-}
+IMPERSONATE = "chrome"
 
 # ---------------------------------------------------------------------------
 # STATIC-URL EXCHANGES
@@ -52,13 +50,19 @@ STATIC_TARGETS = [
     # MEMX — fee schedule rendered inline as HTML
     {"key": "MEMX",    "ext": "html", "url": "https://info.memxtrading.com/us-options-trading-resources/us-options-fee-schedule/"},
 
-    # Nasdaq listing-center pages (HTML rulebook viewer)
-    {"key": "NOM",     "ext": "html", "url": "https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/Nasdaq%20Options%207"},
-    {"key": "NTX",     "ext": "html", "url": "https://listingcenter.nasdaq.com/rulebook/nasdaqtx/rules/NTX%20Options%207"},
-    {"key": "Gemini",  "ext": "html", "url": "https://listingcenter.nasdaq.com/rulebook/gemx/rules/GEMX%20Options%207"},
-    {"key": "ISE",     "ext": "html", "url": "https://listingcenter.nasdaq.com/rulebook/ise/rules/ISE%20Options%207"},
-    {"key": "PHLX",    "ext": "html", "url": "https://listingcenter.nasdaq.com/rulebook/phlx/rules/Phlx%20Options%207"},
-    {"key": "Mercury", "ext": "html", "url": "https://listingcenter.nasdaq.com/rulebook/mrx/rules/MRX%20Options%207"},
+    # Nasdaq listing-center rulebooks. The HTML viewer (/rulebook/...) sits
+    # behind an Akamai rule that has 403'd every non-browser client (requests,
+    # curl, chrome-impersonated TLS) since 2026-08-01 — even with full browser
+    # headers and session cookies. The viewer's own print/PDF export endpoint
+    # (ViewPDF.aspx wrapping RulebookViewer.aspx, from rulebookviewer.js
+    # PrintPage()) serves the identical Options 7 content and is NOT
+    # path-blocked, so we fetch the PDF instead.
+    {"key": "NOM",     "ext": "pdf", "url": "https://listingcenter.nasdaq.com/ViewPDF.aspx?RulebookViewer.aspx?print=Y&exchg=nasdaq&rt=rules&fileName=Nasdaq%20Options%207"},
+    {"key": "NTX",     "ext": "pdf", "url": "https://listingcenter.nasdaq.com/ViewPDF.aspx?RulebookViewer.aspx?print=Y&exchg=nasdaqtx&rt=rules&fileName=NTX%20Options%207"},
+    {"key": "Gemini",  "ext": "pdf", "url": "https://listingcenter.nasdaq.com/ViewPDF.aspx?RulebookViewer.aspx?print=Y&exchg=gemx&rt=rules&fileName=GEMX%20Options%207"},
+    {"key": "ISE",     "ext": "pdf", "url": "https://listingcenter.nasdaq.com/ViewPDF.aspx?RulebookViewer.aspx?print=Y&exchg=ise&rt=rules&fileName=ISE%20Options%207"},
+    {"key": "PHLX",    "ext": "pdf", "url": "https://listingcenter.nasdaq.com/ViewPDF.aspx?RulebookViewer.aspx?print=Y&exchg=phlx&rt=rules&fileName=Phlx%20Options%207"},
+    {"key": "Mercury", "ext": "pdf", "url": "https://listingcenter.nasdaq.com/ViewPDF.aspx?RulebookViewer.aspx?print=Y&exchg=mrx&rt=rules&fileName=MRX%20Options%207"},
 
     # NYSE — fixed-name PDFs hosted on nyse.com
     {"key": "ARCA",    "ext": "pdf",  "url": "https://www.nyse.com/publicdocs/nyse/markets/arca-options/NYSE_Arca_Options_Fee_Schedule.pdf"},
@@ -92,7 +96,11 @@ def download(url: str, out_file: Path, tries: int = 3) -> None:
     """Download `url` to `out_file`, retrying a few times on network hiccups."""
     for attempt in range(1, tries + 1):
         try:
-            resp = requests.get(url, headers=HEADERS, timeout=60, allow_redirects=True)
+            # Retries drop to HTTP/1.1: the Nasdaq ViewPDF export for NTX
+            # consistently resets its HTTP/2 stream (curl error 92) but
+            # serves the same PDF fine over 1.1.
+            resp = requests.get(url, impersonate=IMPERSONATE, timeout=120, allow_redirects=True,
+                                http_version=None if attempt == 1 else "v1")
             resp.raise_for_status()
             out_file.write_bytes(resp.content)
             return
@@ -107,7 +115,7 @@ def scrape_pdf_links(page_url: str, host: str, pattern: str) -> list[str]:
     Fetch `page_url`, find all href values matching `pattern` (a regex),
     make them absolute using `host` if needed, and return de-duplicated list.
     """
-    resp = requests.get(page_url, headers=HEADERS, timeout=60)
+    resp = requests.get(page_url, impersonate=IMPERSONATE, timeout=60)
     resp.raise_for_status()
     hrefs = re.findall(pattern, resp.text, flags=re.IGNORECASE)
     hrefs = list(dict.fromkeys(hrefs))  # de-duplicate, keep order
@@ -122,6 +130,8 @@ def discover_miax_pdfs() -> list[dict]:
         MIAX_FEES_PAGE, MIAX_HOST,
         r'href\s*=\s*["\']([^"\']*fee_schedule-files/[^"\']+\.pdf)["\']',
     )
+    # Prefer full fee-schedule PDFs over "highlighted changes" summaries.
+    hrefs.sort(key=lambda h: bool(re.search(r'highlight|_fee_changes', h, re.IGNORECASE)))
     for keyword, exch in MIAX_MAP:
         match = next((h for h in hrefs if keyword.lower() in h.lower()), None)
         if match:

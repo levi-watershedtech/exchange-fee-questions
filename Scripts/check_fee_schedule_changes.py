@@ -109,6 +109,25 @@ def load_dates(run_dir: Path) -> dict:
     return json.loads((run_dir / "effective_dates.json").read_text(encoding="utf-8"))
 
 
+def last_known_good_dates(current: Path) -> dict:
+    """
+    Per-exchange baseline for comparison: for each exchange, the most recent
+    pre-`current` run where its date was actually extracted (not None).
+
+    Comparing against just the previous run means a one-day fetch outage
+    (date=None) turns the recovery into a fake "None -> old date" change the
+    day after. Walking past Nones gives every exchange a real baseline.
+    """
+    merged: dict = {}
+    for folder in reversed(list_run_folders()):
+        if folder.name >= current.name or not (folder / "effective_dates.json").exists():
+            continue
+        for exch, info in load_dates(folder).items():
+            if exch not in merged and info.get("effective_date") is not None:
+                merged[exch] = info
+    return merged
+
+
 # ---------------------------------------------------------------------------
 # Step 4 — compare two runs
 # ---------------------------------------------------------------------------
@@ -207,8 +226,8 @@ def detect_changes(no_fetch: bool = False, python_exe: str = sys.executable) -> 
         return {"new_dir": new_dir, "prev_dir": None, "first_run": True,
                 "changed": [], "unchanged": [], "needs_review": []}
 
-    print(f"\nComparing {new_dir.name}  vs  previous {prev_dir.name}")
-    result = compare_runs(new_dates, load_dates(prev_dir))
+    print(f"\nComparing {new_dir.name}  vs  last known-good dates (through {prev_dir.name})")
+    result = compare_runs(new_dates, last_known_good_dates(new_dir))
     result.update({"new_dir": new_dir, "prev_dir": prev_dir, "first_run": False})
 
     # Persist what changed (so a downstream step / audit can pick it up).

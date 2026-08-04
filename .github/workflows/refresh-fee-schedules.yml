@@ -71,3 +71,10 @@ jobs:
             git commit -m "Fee schedules: refresh $(date -u +%Y-%m-%d)"
             git push
           fi
+
+      # Runs after the commit so a bad source can never block the day's data.
+      # Warns on a single-run fetch failure; fails the job (red run + GitHub
+      # notification) when the same exchange has failed 2+ runs in a row.
+      - name: Fetch health check
+        if: always() && steps.detect.outcome != 'skipped'
+        run: python Scripts/check_fetch_health.py
