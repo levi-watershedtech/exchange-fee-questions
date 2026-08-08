@@ -1,17 +1,17 @@
 ---
 exchange: BZX
-effective_date: 2026-07-01
+effective_date: 2026-08-07
 source_url: https://www.cboe.com/us/options/membership/fee_schedule/bzx/
-fetched: 2026-08-07
+fetched: 2026-08-08
 ---
 
 # Cboe BZX Options — Fee Schedule
 
-*Effective 2026-07-01. Source: https://www.cboe.com/us/options/membership/fee_schedule/bzx/*
+*Effective 2026-08-07. Source: https://www.cboe.com/us/options/membership/fee_schedule/bzx/*
 
 # Cboe U.S. Options Fee Schedules
 
-Effective July 1, 2026
+Effective August 7, 2026
 
 CAT Fees Schedule
 
@@ -395,13 +395,13 @@ Trial Period. First-time subscribers to Cboe Clock Service are eligible for a fr
 | --- | --- | --- | --- |
 | End-of-Day Subscription | $500 per month | A mid-month subscription will be prorated. |  |
 | End-of-Day Ad-hoc Request (historical data) | $400 per request per month. An ad-hoc request can be for any number of months beginning with January 2018 for which the data is available. | Qualifying Academic Purchasers will be charged $750 per year for the first year. Each additional month purchased thereafter will be prorated based on the $750 per year rate. |  |
-|  |  | A free trial is available for up to 6 months of End-of-Day Open-Close Historical Data to both Options Members and non-Options Members who have not previously purchased End-of-Day Open-Close Historical Data or previously received a free trial. An ad-hoc historical request for specific dates (e.g., March 17, 2023 - March 31, 2023) will be prorated. |  |
+|  |  | A free sample consisting of End-of-Day Open-Close Historical Data for the period July 1, 2022 through December 31, 2022 is available to both Options Members and non-Options Members who have not previously purchased End-of-Day Open-Close Historical Data or previously received a free sample. An ad-hoc historical request for specific dates (e.g., March 17, 2023 - March 31, 2023) will be prorated. |  |
 | Ten-Minute Intraday Subscription | $1,500 per month or $18,000 per year | A mid-month subscription will be prorated. |  |
 | One-Minute Intraday Subscription | $6,000 per month or $72,000 per year | A mid-month subscription will be prorated. |  |
 | Ten-Minute Intraday Ad-hoc Request (historical data) | $750 per month | Qualifying Academic Purchasers will be charged $1,500 per year for the first year. Each additional month purchased thereafter will be prorated based on the $1,500 per year rate. |  |
-|  |  | A free trial is available for up to 6 months of Ten-Minute Intraday Open-Close Historical Data to both Options Members and non-Options Members who have not previously purchased Ten-Minute Intraday Open-Close Historical Data or previously received a free trial. An ad-hoc historical request for specific dates (e.g., March 17, 2023 - March 31, 2023) will be prorated. |  |
+|  |  | A free sample consisting of Ten-Minute Intraday Open-Close Historical Data for the period July 1, 2022 through December 31, 2022 is available to both Options Members and non-Options Members who have not previously purchased Ten-Minute Intraday Open-Close Historical Data or previously received a free sample. An ad-hoc historical request for specific dates (e.g., March 17, 2023 - March 31, 2023) will be prorated. |  |
 | One-Minute Intraday Ad-hoc Request (historical data) | $2,500 per month | Qualifying Academic Purchasers will be charged $2,500 per year for the first year. Each additional month purchased thereafter will be prorated based on the $2,500 per year rate. |  |
-|  |  | A free trial is available for up to 6 months of One-Minute Intraday Open-Close Historical Data to both Options Members and non-Options Members who have not previously purchased One-Minute Intraday Open-Close Historical Data or previously received a free trial. An ad-hoc historical request for specific dates (e.g., March 17, 2023 - March 31, 2023) will be prorated. |  |
+|  |  | A free sample consisting of One-Minute Intraday Open-Close Historical Data for the period July 1, 2022 through December 31, 2022 is available to both Options Members and non-Options Members who have not previously purchased One-Minute Intraday Open-Close Historical Data or previously received a free sample. An ad-hoc historical request for specific dates (e.g., March 17, 2023 - March 31, 2023) will be prorated. |  |
 | External Distribution of Ten-Minute and End of Day Derived Data | $5,000 per month  Fees for external distribution of Derived Data from Ten-Minute Open-Close Data are in addition to fees for the End-of-Day product or the Ten-Minute Intraday product, or both, as applicable. |  |  |
 | External Distribution of One-Minute Derived Data | $7,500 per month  Fees for external distribution of Derived Data from One-Minute Open-Close Data are in addition to fees for the One -Minute Intraday product. |  |  |
 

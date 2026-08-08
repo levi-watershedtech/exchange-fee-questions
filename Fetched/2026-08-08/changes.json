@@ -1,0 +1,42 @@
+{
+  "new_run": "2026-08-08",
+  "previous_run": "2026-08-07",
+  "changed": [
+    {
+      "exchange": "BZX",
+      "reason": "effective date changed",
+      "old_date": "2026-07-01",
+      "new_date": "2026-08-07",
+      "file": "BZX_Fee_Schedule.html"
+    },
+    {
+      "exchange": "C2",
+      "reason": "effective date changed",
+      "old_date": "2026-07-01",
+      "new_date": "2026-08-07",
+      "file": "C2_Fee_Schedule.html"
+    },
+    {
+      "exchange": "EDGX",
+      "reason": "effective date changed",
+      "old_date": "2026-07-01",
+      "new_date": "2026-08-07",
+      "file": "EDGX_Fee_Schedule.html"
+    },
+    {
+      "exchange": "CBOE",
+      "reason": "effective date changed",
+      "old_date": "2026-08-03",
+      "new_date": "2026-08-07",
+      "file": "CBOE_Fee_Schedule.pdf"
+    }
+  ],
+  "needs_review": [
+    {
+      "exchange": "Mercury",
+      "reason": "could not extract effective date this run",
+      "old_date": "2026-06-05",
+      "file": "Mercury_Fee_Schedule.pdf"
+    }
+  ]
+}
